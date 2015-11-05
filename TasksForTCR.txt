@@ -1,0 +1,33 @@
+TCR - Aufgaben:
+
+So schnell wie möglich, egal wer, da für viele andere Algorithmen benötigt:
+- Breitensuche
+- Tiefensuche
+=> Beide iterativ, falls möglich
+
+Thore:
+- Wichtig: Fluss & Erweiterung auf Min-Cut
+- Topologische Sortierung
+//Keine Ahnung wie schwer die folgenden sind, ein paar benötigen als Teil auch Breiten- bzw Tiefensuche
+- Connected Components
+- Bipartite Graph Check
+- Find Articulation Points
+- Strongly Connected Components
+
+Marcel:
+- Held-Karp für TSP
+- Konvexe Hülle: 80% Done
+- Dijkstra: Done
+- Bellman-Ford
+- Floyd-Warshall: Done
+- Binary Search: Done
+- Longest Increasing Subsequence: Done
+//Die zwei folgenden sind eher unwichtig, geht im Notfall auch so
+- Knapsack Problem: 50% Done
+- Coin Change Problem
+
+Besprochen, aber doch eher unwichtig (nur wenn es einer schon gemacht hat oder noch Zeit ist):
+- Fenwick-Tree
+- Tries
+- 2Sat (von Folkmar?)
+- Suurballe (geht auch mit Bellman-Ford)
