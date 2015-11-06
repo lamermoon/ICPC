@@ -1,0 +1,4 @@
+\select@language {english}
+\contentsline {section}{\numberline {1}Java Knowhow}{2}{section.1}
+\contentsline {subsection}{\numberline {1.1}System.out.printf() und String.format()}{2}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}Speed up IO}{2}{subsection.1.2}

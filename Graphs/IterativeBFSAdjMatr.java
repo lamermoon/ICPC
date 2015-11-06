@@ -1,4 +1,9 @@
-//returns true or false, depending on whether there is a connection between s and g
+/* BFS_AdjMtrx_Iterativ
+ ** V+E?
+ * Breitensuche iterativ auf Adjatenzmatrizen
+ * returns true or false, depending on whether there is a connection between s and g
+ */
+//START
 public static boolean BFSWithoutPathForAdjMatr(int s, int g, int[][] graph) {
     //s being the start and g the goal
     boolean[] visited = new boolean[graph.length];
@@ -18,3 +23,4 @@ public static boolean BFSWithoutPathForAdjMatr(int s, int g, int[][] graph) {
      }
      return false;
 }
+//END
