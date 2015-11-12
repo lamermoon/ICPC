@@ -1,5 +1,5 @@
 /*Binary Search
- ** logn
+ ** log n
  * binary searchs for an element in a sorted array
  */
 
