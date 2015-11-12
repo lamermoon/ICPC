@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.4.21)  12 NOV 2015 23:03
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.4.21)  12 NOV 2015 23:14
 entering extended mode
 **tcr-q&d.tex
 (C:\Users\lamermoon\workspace\ICPC\tcr-q&d.tex
@@ -489,23 +489,23 @@ File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 
 {C:/Users/lamermoon/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2] [3]
  [4] [5] [6]
-[7] (C:\Users\lamermoon\workspace\ICPC\tcr-q&d.aux) ) 
+[7] [8] [9] (C:\Users\lamermoon\workspace\ICPC\tcr-q&d.aux) ) 
 Here is how much of TeX's memory you used:
- 4942 strings out of 493921
- 61840 string characters out of 3147270
- 224286 words of memory out of 3000000
- 8201 multiletter control sequences out of 15000+200000
+ 4966 strings out of 493921
+ 62087 string characters out of 3147270
+ 233286 words of memory out of 3000000
+ 8225 multiletter control sequences out of 15000+200000
  7023 words of font info for 19 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 27i,6n,40p,233b,1644s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\lamermoon\AppDa
-ta\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1000.pk> <C:\Users\l
-amermoon\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ectt0800.p
-k> <C:\Users\lamermoon\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi
-600\ecbx1440.pk>
-Output written on tcr-q&d.pdf (7 pages, 55250 bytes).
+ 27i,5n,40p,233b,1165s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\lamermo
+on\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1000.pk> <C:
+\Users\lamermoon\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ec
+tt0800.pk> <C:\Users\lamermoon\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappe
+n\ec\dpi600\ecbx1440.pk>
+Output written on tcr-q&d.pdf (9 pages, 61094 bytes).
 PDF statistics:
- 173 PDF objects out of 1000 (max. 8388607)
+ 185 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
