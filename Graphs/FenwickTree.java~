@@ -1,8 +1,3 @@
-/* FenwickTree
- ** \log n
- * Can be used for computing prefix sums.
- */
-
 import java.util.Scanner;
 
 class MovieCollection {
@@ -18,9 +13,7 @@ class MovieCollection {
 			int[] mn = new int[m + n + 1];
 			int[] pos = new int[n + 1];
 			// mn ist tempraerer Fenwick Tree
-//START
-int[] fwktree = new int[m + n + 1];
-//END	
+			int[] fwktree = new int[m + n + 1];
 			//
 			for (int i = 1; i <= (m > n ? m : n); i++) {
 			if (i <= m) {
@@ -61,23 +54,23 @@ int[] fwktree = new int[m + n + 1];
 		scan.close();
     }
 //START
-public static int read(int index, int[] fenwickTree) {
-   int sum = 0;
-   while (index > 0) {
-      sum += fenwickTree[index];
-      index -= (index & -index);
-   }
-   return sum;
-}
+    public static int read(int index, int[] fenwickTree) {
+		int sum = 0;
+		while (index > 0) {
+			sum += fenwickTree[index];
+			index -= (index & -index);
+		}
+		return sum;
+    }
 //END
 
 //START
-public static int[] update(int index, int addValue, int[] fenwickTree) {
-   while (index <= fenwickTree.length - 1) {
-      fenwickTree[index] += addValue;
-      index += (index & -index);
-   }
-   return fenwickTree;
-}
+    public static int[] update(int index, int addValue, int[] fenwickTree) {
+		while (index <= fenwickTree.length - 1) {
+			fenwickTree[index] += addValue;
+			index += (index & -index);
+		}
+		return fenwickTree;
+    }
 //END
 }
