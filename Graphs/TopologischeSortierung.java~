@@ -1,10 +1,10 @@
+/* Topological Sort
+ ** O(|V| + |E|)
+ * Sorts a graph (represented as adjMtrx) topologically
+ */
+
 import java.util.ArrayList;
 import java.util.Scanner;
-/*
- * TopologischeSortierung
- * Sortiert einen Grafen (hier als AdjMtrx) topologisch
- * Laufzeit: O(V+E)
- */
 
 class OrderingTasks {
 
@@ -32,31 +32,31 @@ class OrderingTasks {
 			}
 			// Einlesen Ende
 //START	
-			// l enthaelt alle Knoten topologisch sortiert (Start: 0, Ende= n)
-			int[] l = new int[n];
-			int idx = 0;
-			// s enthaelt alle Knoten, die keine eingehende Kante haben
-			ArrayList<Integer> s = new ArrayList<Integer>();
-			// initialisiere s
-			for (int i = 0; i < n; i++) {
-				if (edgesIn[i] == 0) {
-					s.add(i);
-				}
-			}
-			// Algo Beginn
-			while (!s.isEmpty()) {
-				int node = s.remove(0);
-				l[idx++] = node;
-				for (int i = 0; i < n; i++) {
-					if (adjMtrx[node][i]) {
-						adjMtrx[node][i] = false;
-						edgesIn[i] -= 1;
-						if (edgesIn[i] == 0) {
-							s.add(i);
-						}
-					}
-				}
-			}
+// l enthaelt alle Knoten topologisch sortiert (Start: 0, Ende= n)
+int[] l = new int[n];
+int idx = 0;
+// s enthaelt alle Knoten, die keine eingehende Kante haben
+ArrayList<Integer> s = new ArrayList<Integer>();
+// initialisiere s
+for (int i = 0; i < n; i++) {
+if (edgesIn[i] == 0) {
+s.add(i);
+}
+}
+// Algo Beginn
+while (!s.isEmpty()) {
+   int node = s.remove(0);
+   l[idx++] = node;
+   for (int i = 0; i < n; i++) {
+      if (adjMtrx[node][i]) {
+         adjMtrx[node][i] = false;
+         edgesIn[i] -= 1;
+         if (edgesIn[i] == 0) {
+            s.add(i);
+         }
+      }
+   }
+}
 //END
 			System.out.print(l[0] + 1);
 			for (int i = 1; i < n; i++) {

@@ -139,14 +139,89 @@
 \newcommand{\hash}[1]{{\bfseries MD5:} ~\texttt{#1}}
 \vspace{1.2em}\noindent {\textbf{MD5:}} \texttt{\small cat <string>| tr -d [:space:] | md5sum}\\
 
-\newpage
+% \newpage
 % \begin{multicols}{2}
 \luadirect{ require('parseCode.lua') }
 \luadirect{ removeTmpFiles() }
 \luadirect{ parse() }
 \luadirect{ removeTmpFiles() }
-\newpage
-\end{multicols}
+% \newpage
+% \end{multicols}
+
+\section{Math Roland}
+\subsection{Divisability Explanation}
+$D \mid M \Leftrightarrow D \mid {\tt digit\_sum(M, k, alt)}$, refer to table for values of $D, k, alt$.
+\begin{table}[htbp]
+\begin{tabular}{| c || c | c | c | c | c | c | c | c | c | c |}
+\hline
+$D$ & 3 & 7 & 9 & 11 & 13 & 17 & 19 & 23 & 37 & 41 \\
+\hline
+$k$ & 1 & 3 & 1 & 2 & 3 & 8 & 9 & 11 & 3 & 5 \\
+\hline
+$alt$ & f & w & f & f & w & w & w & w & f & f \\ 
+\hline
+\end{tabular}
+\end{table}
+\subsection{Combinatorics}
+\begin{itemize}
+\item Variations (ordered): $k$ out of $n$ objects {\footnotesize (permutations for $k = n$)}
+\begin{itemize}
+	\item without repetition:\\ $M = \{ (x_{1}, \ldots , x_{k}): 1 \leq x_i \leq n, \ x_i \neq x_j \mbox{ if } i \neq j \}$, $|M|= \frac{n!}{(n-k)!}$
+	\item with repetition:\\ $M = \{ (x_{1}, \ldots , x_{k}): 1 \leq x_i \leq n \}, |M| = n^k$
+	\end{itemize}
+\item Combinations (unordered): $k$ out of $n$ objects
+\begin{itemize}
+	\item without repetition: $M = \{ (x_{1}, \ldots , x_{n}): x_i \in \{0,1\}, \ x_1 + \ldots + x_n = k \}$, $|M| = {n \choose k}$
+	\item with repetition: $M = \{ (x_{1}, \ldots , x_{n}): x_i \in \{0,1,\ldots,k\}, \ x_1 + \ldots + x_n = k \}$, $|M| = {n+k-1 \choose k}$
+\end{itemize}
+\item Ordered partition of numbers: $x_1+\ldots+x_k = n$ {\footnotesize (i.e. 1+3 = 3+1 = 4 are counted as 2 solutions)}
+\begin{itemize}
+	\item \#Solutions for $x_i \in \mathbb{N}_0$: ${n+k-1 \choose k-1}$
+	\item \#Solutions for $x_i \in \mathbb{N}$: ${n-1 \choose k-1}$
+\end{itemize}
+\item Unordered partition of numbers: $x_1+\ldots+x_k = n$ {\footnotesize (i.e. 1+3 = 3+1 = 4 are counted as 1 solution)}
+\begin{itemize}
+	\item \#Solutions for $x_i \in \mathbb{N}$: $P_{n,k} = P_{n-k,k}+P_{n-1,k-1}$ where $P_{n,1} = P_{n,n} = 1$
+\end{itemize}
+\item Derangements {\footnotesize (permutations without fixed points)}: $!n = n! \sum\nolimits_{k = 0}^n \frac{(-1)^k}{k!} = \lfloor \frac{n!}{e} + \frac{1}{2} \rfloor$
+\end{itemize}
+\subsection{Polynomial Interpolation}
+\subsubsection{Theory}
+Problem: for $\{(x_0,y_0),\ldots, (x_n, y_n) \}$ find $p \in \Pi_{n}$ with $p(x_i) = y_i$ for all $i=0,\ldots,n$.\\
+Solution: $p(x) = \sum\limits_{i=0}^n \gamma_{0,i} \prod\limits_{j=0}^{i-1} (x-x_i)$ where $\gamma_{j,k} = y_j$ for $k = 0$ and $\gamma_{j,k} = \frac { \gamma_{j+1,k-1} - \gamma_{j,k-1} }{x_{j+k}-x_j}$ otherwise. \\
+Efficient evaluation of $p(x)$: $b_n = \gamma_{0,n}$, $b_i = b_{i+1}(x-x_i) + \gamma_{0,i}$ for $i=n-1,\ldots,0$ with $b_0 = p(x)$.
+\subsection{Fibonacci Sequence}
+\subsubsection{Binet's formula}
+$
+\begin{pmatrix}
+f_n \\
+f_{n+1}
+\end{pmatrix} =
+\begin{pmatrix}
+0 & 1 \\
+1 & 1
+\end{pmatrix}^n
+\begin{pmatrix}
+0 \\
+1
+\end{pmatrix}
+\Rightarrow
+f_n = \frac{1}{\sqrt{5}} (\phi^n - \tilde{\phi}^n)$ where $\phi = \frac{1+\sqrt{5}}{2}$ and $\tilde{\phi} = \frac{1-\sqrt{5}}{2}$.
+\subsubsection{Generalization}
+$g_n = \frac{1}{\sqrt{5}} (g_0 (\phi^{n-1} - \tilde{\phi}^{n-1}) + g_1 (\phi^n - \tilde{\phi}^n)) = g_0 f_{n-1} + g_1 f_n$ for all $g_0, g_1 \in \mathbb{N}_0$
+
+\subsubsection{Pisano Period}
+Both $(f_n \bmod k)_{n \in \mathbb{N}_0}$ and $(g_n \bmod k)_{n \in \mathbb{N}_0}$ are periodic.
+\begin{table}[htbp]
+\begin{tabular}{| c || c | c | c | c | c | c | c | c | c | c | c | }
+\hline
+$k$ & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & 100 & $10^n$ for $n >2$ \\
+\hline
+$\pi(k)$ & 3 & 8 & 6 & 20 & 24 & 16 & 12 & 24 & 60 & 300 & $15 \cdot 10^{n-1}$ \\
+\hline
+\end{tabular}
+\end{table}
+
 
 \section{Java Knowhow}
 \subsection{System.out.printf() und String.format()}
@@ -171,12 +246,17 @@
   s & String (use S for all uppercase)
 \end{tabular}
 
+\subsection{Modulo: Avoiding negative Integers}
+\begin{lstlisting}
+int mod = (((nums[j] % D) + D) % D);
+\end{lstlisting}
+
 \subsection{Speed up IO}
 Use \texttt{BufferedReader br = new BufferedReader(new
 InputStreamReader(System.in));}
 
 Use \texttt{Double.parseDouble(Scanner.next())}
-
+\end{multicols}
 
 
 \includepdf[pages=-,clip,trim=5mm 17mm 0mm 17mm,scale=0.95,pagecommand={\pagestyle{plain}}]{tcs-cheat-sheet.pdf}

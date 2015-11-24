@@ -1,5 +1,5 @@
 /* LongestIncreasingSubsequence
- ** n*logn
+ ** n \log n
  * Computes the longest increasing subsequence using binary search.
  */
 

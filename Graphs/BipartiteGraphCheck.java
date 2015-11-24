@@ -1,4 +1,4 @@
-/* BipartiteGraphCheck
+/* Bipartite Graph Check
  ** ???
  * DESCRIPTION MISSING
  */

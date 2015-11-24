@@ -1,4 +1,4 @@
-/* GrahamScan 
+/* Graham Scan 
  ** ???
  * GrahamScan finds convex hull. Still has collinear point problematic at the last diagonal.
  */

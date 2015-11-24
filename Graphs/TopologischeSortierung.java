@@ -1,5 +1,5 @@
-/* Topologische Sortierung
- ** O(V+E)
+/* Topological Sort
+ ** |V| + |E|
  * Sorts a graph (represented as adjMtrx) topologically
  */
 
