@@ -1,5 +1,4 @@
 /* MinCut
- ** ???
  * Calculates the min-cut of a graph (represented as adjMtrx).
  */
 

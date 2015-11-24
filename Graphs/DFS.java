@@ -1,8 +1,8 @@
 /* Depth First Search
- ** n^2
+ ** |V|^2
  * Searches for a path between two vertices in a graph per DFS. \\
- * Input: A source vertex $s$, a target vertex $t$, an adjacency matrix $G$ and two new (empty) lists $path$ and $list$ (for recursion). \\
- * Output: A boolean, indicating whether a path exists or not. If a path exists, a possible path is stored in $path$.
+ * \emph{Input:} A source vertex $s$, a target vertex $t$, an adjacency matrix $G$ and two new (empty) lists $path$ and $list$ (for recursion). \\
+ * \emph{Output:} A boolean, indicating whether a path exists or not. If a path exists, a possible path is stored in $path$.
  */
 import java.util.*;
 class DFS {

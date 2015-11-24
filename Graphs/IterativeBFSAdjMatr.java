@@ -1,5 +1,5 @@
 /* BFS AdjMtrx Iterativ
- ** V+E?
+ ** |V| + |E|
  * Iterative BFS on adjacency matrix. Returns true or false, depending on whether there is a connection between s and g or not.
  */
 

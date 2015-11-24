@@ -1,5 +1,5 @@
 /* FloydWarshall
- ** n^3
+ ** |V|^3
  * Finds all shortest paths. Paths in array next, distances in ans.
  */
 

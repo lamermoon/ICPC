@@ -1,6 +1,6 @@
 /* Bipartite Graph Check
- ** ???
- * DESCRIPTION MISSING
+ ** |V| + |E|
+ * Checks a graph represented as adjList for being bipartite.
  */
 
 //START

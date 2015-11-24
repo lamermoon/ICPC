@@ -1,5 +1,4 @@
 /* Divisability
- ** ???
  * Calculates (alternating) k-digitSum for integer number given by M.
  */
 

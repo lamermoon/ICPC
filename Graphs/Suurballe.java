@@ -1,4 +1,5 @@
 /* Suurballe
+ ** |E| + |V|\log |V|
  * Finds two edge-disjoint paths from s to t with minimal sum length, depends on
  *  Dijkstra. Add to Vertex class 2 HashMaps backupNext and resultSuurballe.
  * For also vertex-disjoint paths split vertices in in- and outgoing vertices

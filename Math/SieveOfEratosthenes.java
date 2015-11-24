@@ -1,8 +1,8 @@
 /* Sieve of Eratosthenes
  ** n
  * Calculates Sieve of Eratosthenes. \\
- * Input: A integer $N$ indicating the size of the sieve. \\
- * Output: A boolean array, which is true at an index $i$ iff i is prime.
+ * \emph{Input:} A integer $N$ indicating the size of the sieve. \\
+ * \emph{Output:} A boolean array, which is true at an index $i$ iff i is prime.
  */
 
 class Main {

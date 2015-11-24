@@ -1,6 +1,4 @@
 /* Polynomial Interpolation
- ** ??
- * 
  */
  
 //START

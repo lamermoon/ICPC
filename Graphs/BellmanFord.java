@@ -1,6 +1,6 @@
 /* BellmanFord
- ** ???
- * DESCRIPTION MISSING
+ ** |V|\cdot |E|
+ * Finds shortest pathes from a single source. Negative edge weights are allowed. Can be used for finding negative cycles.
  */
 
 //START

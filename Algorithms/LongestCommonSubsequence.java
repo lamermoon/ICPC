@@ -1,8 +1,8 @@
 /* Longest Common Subsequence
 ** n \cdot m
  * Finds the longest common subsequence of two strings. \\
- * Input: Two strings $string1$ and $string2$. \\
- * Output: The LCS as a string.
+ * \emph{Input:} Two strings $string1$ and $string2$. \\
+ * \emph{Output:} The LCS as a string.
  */
 //START
 public static String longestCommonSubsequence(String string1, String string2) {

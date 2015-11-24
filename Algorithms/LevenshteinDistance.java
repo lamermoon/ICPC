@@ -2,8 +2,8 @@
 ** |a|\cdot |b|
  * Calculates the Levenshtein distance for two strings (minimum number of
  * insertions, deletions, or substitutions). \\
- * Input: A string $a$ and a string $b$.  \\
- * Output: An integer holding the distance.
+ * \emph{Input:} A string $a$ and a string $b$.  \\
+ * \emph{Output:} An integer holding the distance.
  */
 //START
 public static int levenshteinDistance(String a, String b) {

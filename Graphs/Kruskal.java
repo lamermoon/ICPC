@@ -1,6 +1,6 @@
 /* Kruskal
- ** E + \log E
- * Computes a minimum spanning tree
+ ** |E| + \log |V|
+ * Computes a minimum spanning tree for a weighted undirected graph.
  */
 
 import java.util.Arrays;

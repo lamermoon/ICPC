@@ -1,6 +1,6 @@
 /* Bitonic TSP
- * Input: Distance matrix $d$ with vertices sorted in x-axis direction. \\
- * Output: Shortest bitonic tour length
+ * \emph{Input:} Distance matrix $d$ with vertices sorted in x-axis direction. \\
+ * \emph{Output:} Shortest bitonic tour length
  */
 class Main {
 //START

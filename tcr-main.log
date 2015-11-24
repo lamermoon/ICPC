@@ -1,4 +1,4 @@
-This is LuaTeX, Version beta-0.76.0-2013121407 (rev 4627)  (format=lualatex 2014.8.18)  24 NOV 2015 15:44
+This is LuaTeX, Version beta-0.76.0-2013121407 (rev 4627)  (format=lualatex 2014.8.18)  24 NOV 2015 20:47
  \write18 enabled.
 **tcr-main.tex
 (./tcr-main.tex
@@ -519,9 +519,9 @@ Language: english 2012/08/20 v3.3p English support from the babel system
 luaotfload | load : auto-selecting default features for script: dflt(load luc: /
 home/thore/.texmf-var/luatex-cache/generic/fonts/otf/texgyretermes-regular.luc)
 luaotfload | load : auto-selecting default features for script: dflt
-luaotfload: font no 22 (TeXGyreTermes-Regular) defines feature kern for script l
+luaotfload: font no 22 (TeXGyreTermes-Regular) defines feature cpsp for script l
 atn
-luaotfload: font no 22 (TeXGyreTermes-Regular) defines feature kern for script l
+luaotfload: font no 22 (TeXGyreTermes-Regular) defines feature cpsp for script l
 atn
 \g_fontspec_family_TeX Gyre Termes_int=\count319
 luaotfload | load : auto-selecting default features for script: dflt
@@ -592,9 +592,9 @@ luaotfload | load : no defaults for script "latn", falling back to "dflt"
 luaotfload | load : auto-selecting default features for script: dflt(load luc: /
 home/thore/.texmf-var/luatex-cache/generic/fonts/otf/sourcecodepro-regular.luc)
 luaotfload | load : auto-selecting default features for script: dflt
-luaotfload: font no 27 (SourceCodePro-Regular) defines feature mkmk for script l
+luaotfload: font no 27 (SourceCodePro-Regular) defines feature mark for script l
 atn
-luaotfload: font no 27 (SourceCodePro-Regular) defines feature mkmk for script l
+luaotfload: font no 27 (SourceCodePro-Regular) defines feature mark for script l
 atn
 \g_fontspec_family_Source Code Pro_int=\count320
 luaotfload | load : auto-selecting default features for script: dflt
@@ -1375,216 +1375,210 @@ nvironment!.
 Package multicol Warning: Floats and marginpars not allowed inside `multicols' e
 nvironment!.
 
-
-Overfull \hbox (7.47208pt too wide) in paragraph at lines 255--257
-[]\EU2/TeXGyreTermes(0)/m/n/10 Use \EU2/SourceCodePro(0)/m/n/10 Buffere-dReader
- br = new Buffere-dReader(new
- []
-
 <tcs-cheat-sheet.pdf, id=1427, 597.23125pt x 845.1575pt>
 File: tcs-cheat-sheet.pdf Graphic file (type pdf)
 
 <use tcs-cheat-sheet.pdf>
-Package pdftex.def Info: tcs-cheat-sheet.pdf used on input line 262.
+Package pdftex.def Info: tcs-cheat-sheet.pdf used on input line 267.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
 File: tcs-cheat-sheet.pdf Graphic file (type pdf)
  <use tcs-cheat-sheet.pdf>
-Package pdftex.def Info: tcs-cheat-sheet.pdf used on input line 262.
+Package pdftex.def Info: tcs-cheat-sheet.pdf used on input line 267.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
  [13]
-<tcs-cheat-sheet.pdf, id=1441, page=1, 597.23125pt x 845.1575pt>
+<tcs-cheat-sheet.pdf, id=1446, page=1, 597.23125pt x 845.1575pt>
 File: tcs-cheat-sheet.pdf Graphic file (type pdf)
 
 <use tcs-cheat-sheet.pdf, page 1>
-Package pdftex.def Info: tcs-cheat-sheet.pdf, page1 used on input line 262.
+Package pdftex.def Info: tcs-cheat-sheet.pdf, page1 used on input line 267.
 (pdftex.def)             Requested size: 583.00346pt x 748.41635pt.
 File: tcs-cheat-sheet.pdf Graphic file (type pdf)
  <use tcs-cheat-sheet.pdf, page 1>
-Package pdftex.def Info: tcs-cheat-sheet.pdf, page1 used on input line 262.
+Package pdftex.def Info: tcs-cheat-sheet.pdf, page1 used on input line 267.
 (pdftex.def)             Requested size: 553.8515pt x 710.99324pt.
 File: tcs-cheat-sheet.pdf Graphic file (type pdf)
 
 <use tcs-cheat-sheet.pdf, page 1>
-Package pdftex.def Info: tcs-cheat-sheet.pdf, page1 used on input line 262.
+Package pdftex.def Info: tcs-cheat-sheet.pdf, page1 used on input line 267.
 (pdftex.def)             Requested size: 553.8515pt x 710.99324pt.
 File: tcs-cheat-sheet.pdf Graphic file (type pdf)
  <use tcs-cheat-sheet.pdf, page 1>
-Package pdftex.def Info: tcs-cheat-sheet.pdf, page1 used on input line 262.
+Package pdftex.def Info: tcs-cheat-sheet.pdf, page1 used on input line 267.
 (pdftex.def)             Requested size: 553.8515pt x 710.99324pt.
 File: tcs-cheat-sheet.pdf Graphic file (type pdf)
 
 <use tcs-cheat-sheet.pdf, page 1>
-Package pdftex.def Info: tcs-cheat-sheet.pdf, page1 used on input line 262.
+Package pdftex.def Info: tcs-cheat-sheet.pdf, page1 used on input line 267.
 (pdftex.def)             Requested size: 553.8515pt x 710.99324pt.
  [14 <./tcs-cheat-sheet.pdf>]
-<tcs-cheat-sheet.pdf, id=1767, page=2, 597.23125pt x 845.1575pt>
+<tcs-cheat-sheet.pdf, id=1772, page=2, 597.23125pt x 845.1575pt>
 File: tcs-cheat-sheet.pdf Graphic file (type pdf)
 
 <use tcs-cheat-sheet.pdf, page 2>
-Package pdftex.def Info: tcs-cheat-sheet.pdf, page2 used on input line 262.
+Package pdftex.def Info: tcs-cheat-sheet.pdf, page2 used on input line 267.
 (pdftex.def)             Requested size: 553.8515pt x 710.99324pt.
 File: tcs-cheat-sheet.pdf Graphic file (type pdf)
  <use tcs-cheat-sheet.pdf, page 2>
-Package pdftex.def Info: tcs-cheat-sheet.pdf, page2 used on input line 262.
+Package pdftex.def Info: tcs-cheat-sheet.pdf, page2 used on input line 267.
 (pdftex.def)             Requested size: 553.8515pt x 710.99324pt.
 File: tcs-cheat-sheet.pdf Graphic file (type pdf)
 
 <use tcs-cheat-sheet.pdf, page 2>
-Package pdftex.def Info: tcs-cheat-sheet.pdf, page2 used on input line 262.
+Package pdftex.def Info: tcs-cheat-sheet.pdf, page2 used on input line 267.
 (pdftex.def)             Requested size: 553.8515pt x 710.99324pt.
  [15 <./tcs-cheat-sheet.pdf>]
-<tcs-cheat-sheet.pdf, id=1803, page=3, 597.23125pt x 845.1575pt>
+<tcs-cheat-sheet.pdf, id=1808, page=3, 597.23125pt x 845.1575pt>
 File: tcs-cheat-sheet.pdf Graphic file (type pdf)
 
 <use tcs-cheat-sheet.pdf, page 3>
-Package pdftex.def Info: tcs-cheat-sheet.pdf, page3 used on input line 262.
+Package pdftex.def Info: tcs-cheat-sheet.pdf, page3 used on input line 267.
 (pdftex.def)             Requested size: 553.8515pt x 710.99324pt.
 File: tcs-cheat-sheet.pdf Graphic file (type pdf)
  <use tcs-cheat-sheet.pdf, page 3>
-Package pdftex.def Info: tcs-cheat-sheet.pdf, page3 used on input line 262.
+Package pdftex.def Info: tcs-cheat-sheet.pdf, page3 used on input line 267.
 (pdftex.def)             Requested size: 553.8515pt x 710.99324pt.
 File: tcs-cheat-sheet.pdf Graphic file (type pdf)
 
 <use tcs-cheat-sheet.pdf, page 3>
-Package pdftex.def Info: tcs-cheat-sheet.pdf, page3 used on input line 262.
+Package pdftex.def Info: tcs-cheat-sheet.pdf, page3 used on input line 267.
 (pdftex.def)             Requested size: 553.8515pt x 710.99324pt.
  [16 <./tcs-cheat-sheet.pdf>]
-<tcs-cheat-sheet.pdf, id=1816, page=4, 597.23125pt x 845.1575pt>
+<tcs-cheat-sheet.pdf, id=1821, page=4, 597.23125pt x 845.1575pt>
 File: tcs-cheat-sheet.pdf Graphic file (type pdf)
 
 <use tcs-cheat-sheet.pdf, page 4>
-Package pdftex.def Info: tcs-cheat-sheet.pdf, page4 used on input line 262.
+Package pdftex.def Info: tcs-cheat-sheet.pdf, page4 used on input line 267.
 (pdftex.def)             Requested size: 553.8515pt x 710.99324pt.
 File: tcs-cheat-sheet.pdf Graphic file (type pdf)
  <use tcs-cheat-sheet.pdf, page 4>
-Package pdftex.def Info: tcs-cheat-sheet.pdf, page4 used on input line 262.
+Package pdftex.def Info: tcs-cheat-sheet.pdf, page4 used on input line 267.
 (pdftex.def)             Requested size: 553.8515pt x 710.99324pt.
 File: tcs-cheat-sheet.pdf Graphic file (type pdf)
 
 <use tcs-cheat-sheet.pdf, page 4>
-Package pdftex.def Info: tcs-cheat-sheet.pdf, page4 used on input line 262.
+Package pdftex.def Info: tcs-cheat-sheet.pdf, page4 used on input line 267.
 (pdftex.def)             Requested size: 553.8515pt x 710.99324pt.
  [17 <./tcs-cheat-sheet.pdf>]
-<tcs-cheat-sheet.pdf, id=1866, page=5, 597.23125pt x 845.1575pt>
+<tcs-cheat-sheet.pdf, id=1872, page=5, 597.23125pt x 845.1575pt>
 File: tcs-cheat-sheet.pdf Graphic file (type pdf)
 
 <use tcs-cheat-sheet.pdf, page 5>
-Package pdftex.def Info: tcs-cheat-sheet.pdf, page5 used on input line 262.
+Package pdftex.def Info: tcs-cheat-sheet.pdf, page5 used on input line 267.
 (pdftex.def)             Requested size: 553.8515pt x 710.99324pt.
 File: tcs-cheat-sheet.pdf Graphic file (type pdf)
  <use tcs-cheat-sheet.pdf, page 5>
-Package pdftex.def Info: tcs-cheat-sheet.pdf, page5 used on input line 262.
+Package pdftex.def Info: tcs-cheat-sheet.pdf, page5 used on input line 267.
 (pdftex.def)             Requested size: 553.8515pt x 710.99324pt.
 File: tcs-cheat-sheet.pdf Graphic file (type pdf)
 
 <use tcs-cheat-sheet.pdf, page 5>
-Package pdftex.def Info: tcs-cheat-sheet.pdf, page5 used on input line 262.
+Package pdftex.def Info: tcs-cheat-sheet.pdf, page5 used on input line 267.
 (pdftex.def)             Requested size: 553.8515pt x 710.99324pt.
  [18 <./tcs-cheat-sheet.pdf>]
-<tcs-cheat-sheet.pdf, id=1921, page=6, 597.23125pt x 845.1575pt>
+<tcs-cheat-sheet.pdf, id=1926, page=6, 597.23125pt x 845.1575pt>
 File: tcs-cheat-sheet.pdf Graphic file (type pdf)
 
 <use tcs-cheat-sheet.pdf, page 6>
-Package pdftex.def Info: tcs-cheat-sheet.pdf, page6 used on input line 262.
+Package pdftex.def Info: tcs-cheat-sheet.pdf, page6 used on input line 267.
 (pdftex.def)             Requested size: 553.8515pt x 710.99324pt.
 File: tcs-cheat-sheet.pdf Graphic file (type pdf)
  <use tcs-cheat-sheet.pdf, page 6>
-Package pdftex.def Info: tcs-cheat-sheet.pdf, page6 used on input line 262.
+Package pdftex.def Info: tcs-cheat-sheet.pdf, page6 used on input line 267.
 (pdftex.def)             Requested size: 553.8515pt x 710.99324pt.
 File: tcs-cheat-sheet.pdf Graphic file (type pdf)
 
 <use tcs-cheat-sheet.pdf, page 6>
-Package pdftex.def Info: tcs-cheat-sheet.pdf, page6 used on input line 262.
+Package pdftex.def Info: tcs-cheat-sheet.pdf, page6 used on input line 267.
 (pdftex.def)             Requested size: 553.8515pt x 710.99324pt.
  [19 <./tcs-cheat-sheet.pdf>]
-<tcs-cheat-sheet.pdf, id=1934, page=7, 597.23125pt x 845.1575pt>
+<tcs-cheat-sheet.pdf, id=1939, page=7, 597.23125pt x 845.1575pt>
 File: tcs-cheat-sheet.pdf Graphic file (type pdf)
 
 <use tcs-cheat-sheet.pdf, page 7>
-Package pdftex.def Info: tcs-cheat-sheet.pdf, page7 used on input line 262.
+Package pdftex.def Info: tcs-cheat-sheet.pdf, page7 used on input line 267.
 (pdftex.def)             Requested size: 553.8515pt x 710.99324pt.
 File: tcs-cheat-sheet.pdf Graphic file (type pdf)
  <use tcs-cheat-sheet.pdf, page 7>
-Package pdftex.def Info: tcs-cheat-sheet.pdf, page7 used on input line 262.
+Package pdftex.def Info: tcs-cheat-sheet.pdf, page7 used on input line 267.
 (pdftex.def)             Requested size: 553.8515pt x 710.99324pt.
 File: tcs-cheat-sheet.pdf Graphic file (type pdf)
 
 <use tcs-cheat-sheet.pdf, page 7>
-Package pdftex.def Info: tcs-cheat-sheet.pdf, page7 used on input line 262.
+Package pdftex.def Info: tcs-cheat-sheet.pdf, page7 used on input line 267.
 (pdftex.def)             Requested size: 553.8515pt x 710.99324pt.
  [20 <./tcs-cheat-sheet.pdf>]
-<tcs-cheat-sheet.pdf, id=1947, page=8, 597.23125pt x 845.1575pt>
+<tcs-cheat-sheet.pdf, id=1952, page=8, 597.23125pt x 845.1575pt>
 File: tcs-cheat-sheet.pdf Graphic file (type pdf)
 
 <use tcs-cheat-sheet.pdf, page 8>
-Package pdftex.def Info: tcs-cheat-sheet.pdf, page8 used on input line 262.
+Package pdftex.def Info: tcs-cheat-sheet.pdf, page8 used on input line 267.
 (pdftex.def)             Requested size: 553.8515pt x 710.99324pt.
 File: tcs-cheat-sheet.pdf Graphic file (type pdf)
  <use tcs-cheat-sheet.pdf, page 8>
-Package pdftex.def Info: tcs-cheat-sheet.pdf, page8 used on input line 262.
+Package pdftex.def Info: tcs-cheat-sheet.pdf, page8 used on input line 267.
 (pdftex.def)             Requested size: 553.8515pt x 710.99324pt.
 File: tcs-cheat-sheet.pdf Graphic file (type pdf)
 
 <use tcs-cheat-sheet.pdf, page 8>
-Package pdftex.def Info: tcs-cheat-sheet.pdf, page8 used on input line 262.
+Package pdftex.def Info: tcs-cheat-sheet.pdf, page8 used on input line 267.
 (pdftex.def)             Requested size: 553.8515pt x 710.99324pt.
  [21 <./tcs-cheat-sheet.pdf>]
-<tcs-cheat-sheet.pdf, id=1961, page=9, 597.23125pt x 845.1575pt>
+<tcs-cheat-sheet.pdf, id=1966, page=9, 597.23125pt x 845.1575pt>
 File: tcs-cheat-sheet.pdf Graphic file (type pdf)
 
 <use tcs-cheat-sheet.pdf, page 9>
-Package pdftex.def Info: tcs-cheat-sheet.pdf, page9 used on input line 262.
+Package pdftex.def Info: tcs-cheat-sheet.pdf, page9 used on input line 267.
 (pdftex.def)             Requested size: 553.8515pt x 710.99324pt.
 File: tcs-cheat-sheet.pdf Graphic file (type pdf)
  <use tcs-cheat-sheet.pdf, page 9>
-Package pdftex.def Info: tcs-cheat-sheet.pdf, page9 used on input line 262.
+Package pdftex.def Info: tcs-cheat-sheet.pdf, page9 used on input line 267.
 (pdftex.def)             Requested size: 553.8515pt x 710.99324pt.
 File: tcs-cheat-sheet.pdf Graphic file (type pdf)
 
 <use tcs-cheat-sheet.pdf, page 9>
-Package pdftex.def Info: tcs-cheat-sheet.pdf, page9 used on input line 262.
+Package pdftex.def Info: tcs-cheat-sheet.pdf, page9 used on input line 267.
 (pdftex.def)             Requested size: 553.8515pt x 710.99324pt.
  [22 <./tcs-cheat-sheet.pdf>]
-<tcs-cheat-sheet.pdf, id=1974, page=10, 597.23125pt x 845.1575pt>
+<tcs-cheat-sheet.pdf, id=1979, page=10, 597.23125pt x 845.1575pt>
 File: tcs-cheat-sheet.pdf Graphic file (type pdf)
 
 <use tcs-cheat-sheet.pdf, page 10>
-Package pdftex.def Info: tcs-cheat-sheet.pdf, page10 used on input line 262.
+Package pdftex.def Info: tcs-cheat-sheet.pdf, page10 used on input line 267.
 (pdftex.def)             Requested size: 553.8515pt x 710.99324pt.
 File: tcs-cheat-sheet.pdf Graphic file (type pdf)
  <use tcs-cheat-sheet.pdf, page 10>
-Package pdftex.def Info: tcs-cheat-sheet.pdf, page10 used on input line 262.
+Package pdftex.def Info: tcs-cheat-sheet.pdf, page10 used on input line 267.
 (pdftex.def)             Requested size: 553.8515pt x 710.99324pt.
 File: tcs-cheat-sheet.pdf Graphic file (type pdf)
 
 <use tcs-cheat-sheet.pdf, page 10>
-Package pdftex.def Info: tcs-cheat-sheet.pdf, page10 used on input line 262.
+Package pdftex.def Info: tcs-cheat-sheet.pdf, page10 used on input line 267.
 (pdftex.def)             Requested size: 553.8515pt x 710.99324pt.
  [23 <./tcs-cheat-sheet.pdf>]
 
 AED: lastpage setting LastPage
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 264.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 264.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 269.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 269.
 (./tcr-main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 264.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 264.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 269.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 269.
 Package rerunfilecheck Info: File `tcr-main.out' has not changed.
 (rerunfilecheck)             Checksum: 06C9FF5E70F300425E86E9781A576E7E;3034.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 264.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 269.
  )
 
 Here is how much of LuaTeX's memory you used:
- 28920 strings out of 493803
- 476946,662416 words of node,token memory allocated
+ 28929 strings out of 493803
+ 476959,662416 words of node,token memory allocated
  6999 words of node memory still in use:
    121 hlist, 8 vlist, 81 rule, 20 math, 465 glue, 9 kern, 2 penalty, 96 glyph, 
 318 attribute, 330 glue_spec, 245 attribute_list, 2 write, 2 local_par, 22 pdf_r
 efximage, 4 pdf_colorstack nodes
-   avail lists: 2:19869,3:449,4:19820,5:8134,6:3507,7:15729,8:129,9:17732,10:124
-9
- 30161 multiletter control sequences out of 65536+600000
+   avail lists: 2:20263,3:498,4:19589,5:8031,6:3532,7:15768,8:128,9:17510,10:123
+2
+ 30165 multiletter control sequences out of 65536+600000
  80 fonts using 7703519 bytes
- 48i,20n,49p,376b,1421s stack positions out of 5000i,500n,10000p,200000b,100000s
+ 48i,20n,49p,376b,1423s stack positions out of 5000i,500n,10000p,200000b,100000s
 </usr/share/texmf/fonts/opentype/public/lm/lmmono8-regular.otf></home/thore/texm
 f/fonts/opentype/adobe/sourcecodepro/SourceCodePro-Bold.otf></home/thore/texmf/f
 onts/opentype/adobe/sourcecodepro/SourceCodePro-Regular.otf></usr/share/texmf/fo
@@ -1606,10 +1600,10 @@ ts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 sy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></
 usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb>
-Output written on tcr-main.pdf (23 pages, 523466 bytes).
+Output written on tcr-main.pdf (23 pages, 524516 bytes).
 
-PDF statistics: 2122 PDF objects out of 2487 (max. 8388607)
- 1617 compressed objects within 17 object streams
- 1155 named destinations out of 1200 (max. 131072)
+PDF statistics: 2127 PDF objects out of 2487 (max. 8388607)
+ 1622 compressed objects within 17 object streams
+ 1160 named destinations out of 1200 (max. 131072)
  559 words of extra memory for PDF output out of 10000 (max. 10000000)
 
