@@ -13,34 +13,37 @@
 \contentsline {section}{\numberline {2}Graphs}{5}{section.2}
 \contentsline {subsection}{\numberline {2.1}BellmanFord}{5}{subsection.2.1}
 \contentsline {subsection}{\numberline {2.2}Bipartite Graph Check}{5}{subsection.2.2}
-\contentsline {subsection}{\numberline {2.3}Depth First Search}{6}{subsection.2.3}
-\contentsline {subsection}{\numberline {2.4}Dijkstra}{6}{subsection.2.4}
-\contentsline {subsection}{\numberline {2.5}EdmondsKarp}{6}{subsection.2.5}
-\contentsline {subsection}{\numberline {2.6}FenwickTree}{7}{subsection.2.6}
-\contentsline {subsection}{\numberline {2.7}FloydWarshall}{7}{subsection.2.7}
-\contentsline {subsection}{\numberline {2.8}BFS AdjMtrx Iterativ}{7}{subsection.2.8}
-\contentsline {subsection}{\numberline {2.9}Kruskal}{7}{subsection.2.9}
-\contentsline {subsection}{\numberline {2.10}MinCut}{8}{subsection.2.10}
-\contentsline {subsection}{\numberline {2.11}Path-Based SCCs}{9}{subsection.2.11}
-\contentsline {subsection}{\numberline {2.12}Suurballe}{9}{subsection.2.12}
-\contentsline {subsection}{\numberline {2.13}Topological Sort}{10}{subsection.2.13}
+\contentsline {subsection}{\numberline {2.3}Maximum Bipartite Matching}{6}{subsection.2.3}
+\contentsline {subsection}{\numberline {2.4}Depth First Search}{6}{subsection.2.4}
+\contentsline {subsection}{\numberline {2.5}Dijkstra}{6}{subsection.2.5}
+\contentsline {subsection}{\numberline {2.6}EdmondsKarp}{7}{subsection.2.6}
+\contentsline {subsection}{\numberline {2.7}FenwickTree}{7}{subsection.2.7}
+\contentsline {subsection}{\numberline {2.8}FloydWarshall}{7}{subsection.2.8}
+\contentsline {subsection}{\numberline {2.9}BFS AdjMtrx Iterativ}{8}{subsection.2.9}
+\contentsline {subsection}{\numberline {2.10}Kruskal}{8}{subsection.2.10}
+\contentsline {subsection}{\numberline {2.11}MinCut}{9}{subsection.2.11}
+\contentsline {subsection}{\numberline {2.12}Path-Based SCCs}{9}{subsection.2.12}
+\contentsline {subsection}{\numberline {2.13}Suurballe}{9}{subsection.2.13}
+\contentsline {subsection}{\numberline {2.14}Topological Sort}{10}{subsection.2.14}
 \contentsline {section}{\numberline {3}Math}{10}{section.3}
 \contentsline {subsection}{\numberline {3.1}Binomial Coefficient}{10}{subsection.3.1}
-\contentsline {subsection}{\numberline {3.2}Binomial Matrix }{10}{subsection.3.2}
-\contentsline {subsection}{\numberline {3.3}Graham Scan }{10}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.2}Binomial Matrix }{11}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}Graham Scan }{11}{subsection.3.3}
 \contentsline {subsection}{\numberline {3.4}Divisability}{11}{subsection.3.4}
-\contentsline {subsection}{\numberline {3.5}Polynomial Interpolation}{11}{subsection.3.5}
-\contentsline {subsection}{\numberline {3.6}Sieve of Eratosthenes}{12}{subsection.3.6}
-\contentsline {section}{\numberline {4}Math Roland}{12}{section.4}
-\contentsline {subsection}{\numberline {4.1}Divisability Explanation}{12}{subsection.4.1}
-\contentsline {subsection}{\numberline {4.2}Combinatorics}{12}{subsection.4.2}
-\contentsline {subsection}{\numberline {4.3}Polynomial Interpolation}{13}{subsection.4.3}
-\contentsline {subsubsection}{\numberline {4.3.1}Theory}{13}{subsubsection.4.3.1}
-\contentsline {subsection}{\numberline {4.4}Fibonacci Sequence}{13}{subsection.4.4}
-\contentsline {subsubsection}{\numberline {4.4.1}Binet's formula}{13}{subsubsection.4.4.1}
-\contentsline {subsubsection}{\numberline {4.4.2}Generalization}{13}{subsubsection.4.4.2}
-\contentsline {subsubsection}{\numberline {4.4.3}Pisano Period}{13}{subsubsection.4.4.3}
-\contentsline {section}{\numberline {5}Java Knowhow}{13}{section.5}
-\contentsline {subsection}{\numberline {5.1}System.out.printf() und String.format()}{13}{subsection.5.1}
-\contentsline {subsection}{\numberline {5.2}Modulo: Avoiding negative Integers}{13}{subsection.5.2}
-\contentsline {subsection}{\numberline {5.3}Speed up IO}{13}{subsection.5.3}
+\contentsline {subsection}{\numberline {3.5}Iterative EEA }{12}{subsection.3.5}
+\contentsline {subsection}{\numberline {3.6}Polynomial Interpolation}{12}{subsection.3.6}
+\contentsline {subsection}{\numberline {3.7}Sieve of Eratosthenes}{13}{subsection.3.7}
+\contentsline {section}{\numberline {4}tcr-roland}{13}{section.4}
+\contentsline {section}{\numberline {5}Math Roland}{13}{section.5}
+\contentsline {subsection}{\numberline {5.1}Divisability Explanation}{13}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}Combinatorics}{13}{subsection.5.2}
+\contentsline {subsection}{\numberline {5.3}Polynomial Interpolation}{13}{subsection.5.3}
+\contentsline {subsubsection}{\numberline {5.3.1}Theory}{13}{subsubsection.5.3.1}
+\contentsline {subsection}{\numberline {5.4}Fibonacci Sequence}{13}{subsection.5.4}
+\contentsline {subsubsection}{\numberline {5.4.1}Binet's formula}{13}{subsubsection.5.4.1}
+\contentsline {subsubsection}{\numberline {5.4.2}Generalization}{13}{subsubsection.5.4.2}
+\contentsline {subsubsection}{\numberline {5.4.3}Pisano Period}{13}{subsubsection.5.4.3}
+\contentsline {section}{\numberline {6}Java Knowhow}{14}{section.6}
+\contentsline {subsection}{\numberline {6.1}System.out.printf() und String.format()}{14}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}Modulo: Avoiding negative Integers}{14}{subsection.6.2}
+\contentsline {subsection}{\numberline {6.3}Speed up IO}{14}{subsection.6.3}
