@@ -1,8 +1,8 @@
 /* Bipartite Graph Check
  ** |V| + |E|
  * Checks a graph represented as adjList for being bipartite. Needs a little adaption, if the graph is not connected. \\
- * \emph{Input:} graph as adjList, amount of nodes N as int \\
- * \emph{Output:} true if graph is bipartite, false otherwise
+ * \emph{Input:} $graph$ as adjList, amount of nodes $N$ as int \\
+ * \emph{Output:} \texttt{true} if graph is bipartite, \texttt{false} otherwise
  */
 
 //START

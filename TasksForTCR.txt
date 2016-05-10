@@ -6,7 +6,6 @@ Fehlende Kommentare:
 -Longest Common Subsequence (von Anton)
 -Longest Increasing Subsequence
 -Next Permuation
--DFS
 -Edmonds Karp
 -Fenwick Tree
 -Floyd-Warshall

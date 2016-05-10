@@ -1,8 +1,8 @@
 /* Breadth First Search AdjMtrx Iterative
  ** |V| + |E|
  * Iterative BFS on adjacency matrix. Needs a little adaption, if graph is not connected. \\
- * \emph{Input:} nodes s and g as int and graph as adjMatrix \\
- * \emph{Output:} true if there is a connection between s and g, false otherwise 
+ * \emph{Input:} nodes $s$ and $g$ as int and $graph$ as adjMatrix \\
+ * \emph{Output:} \texttt{true} if there is a connection between $s$ and $g$, \texttt{false} otherwise 
  */
 
 //START

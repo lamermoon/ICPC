@@ -18,7 +18,7 @@
 \contentsline {subsection}{\numberline {2.5}Dijkstra}{6}{subsection.2.5}
 \contentsline {subsection}{\numberline {2.6}EdmondsKarp}{7}{subsection.2.6}
 \contentsline {subsection}{\numberline {2.7}FenwickTree}{7}{subsection.2.7}
-\contentsline {subsection}{\numberline {2.8}FloydWarshall}{7}{subsection.2.8}
+\contentsline {subsection}{\numberline {2.8}FloydWarshall}{8}{subsection.2.8}
 \contentsline {subsection}{\numberline {2.9}Breadth First Search AdjMtrx Iterative}{8}{subsection.2.9}
 \contentsline {subsection}{\numberline {2.10}Kruskal}{8}{subsection.2.10}
 \contentsline {subsection}{\numberline {2.11}MinCut}{9}{subsection.2.11}
