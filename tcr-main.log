@@ -1,4 +1,4 @@
-This is LuaTeX, Version beta-0.76.0-2013121407 (rev 4627)  (format=lualatex 2014.8.18)  10 MAY 2016 13:54
+This is LuaTeX, Version beta-0.76.0-2013121407 (rev 4627)  (format=lualatex 2014.8.18)  10 MAY 2016 14:54
  \write18 enabled.
 **tcr-main.tex
 (./tcr-main.tex
@@ -519,9 +519,9 @@ Language: english 2012/08/20 v3.3p English support from the babel system
 luaotfload | load : auto-selecting default features for script: dflt(load luc: /
 home/thore/.texmf-var/luatex-cache/generic/fonts/otf/texgyretermes-regular.luc)
 luaotfload | load : auto-selecting default features for script: dflt
-luaotfload: font no 22 (TeXGyreTermes-Regular) defines feature ss02 for script l
+luaotfload: font no 22 (TeXGyreTermes-Regular) defines feature frac for script l
 atn
-luaotfload: font no 22 (TeXGyreTermes-Regular) defines feature ss02 for script l
+luaotfload: font no 22 (TeXGyreTermes-Regular) defines feature frac for script l
 atn
 \g_fontspec_family_TeX Gyre Termes_int=\count319
 luaotfload | load : auto-selecting default features for script: dflt
@@ -592,9 +592,9 @@ luaotfload | load : no defaults for script "latn", falling back to "dflt"
 luaotfload | load : auto-selecting default features for script: dflt(load luc: /
 home/thore/.texmf-var/luatex-cache/generic/fonts/otf/sourcecodepro-regular.luc)
 luaotfload | load : auto-selecting default features for script: dflt
-luaotfload: font no 27 (SourceCodePro-Regular) defines feature ss02 for script l
+luaotfload: font no 27 (SourceCodePro-Regular) defines feature frac for script l
 atn
-luaotfload: font no 27 (SourceCodePro-Regular) defines feature ss02 for script l
+luaotfload: font no 27 (SourceCodePro-Regular) defines feature frac for script l
 atn
 \g_fontspec_family_Source Code Pro_int=\count320
 luaotfload | load : auto-selecting default features for script: dflt
@@ -1313,16 +1313,16 @@ luaotfload | load : auto-selecting default features for script: dflt
 (./Algorithms/tmp_LongestCommonSubsequence.java [3])
 (./Algorithms/tmp_LongestIncreasingSubsequenceEasy.java)
 (./Algorithms/tmp_LongestIncreasingSubsequenceFast.java)
-(./Algorithms/tmp_NextPermutation.java)
+(./Algorithms/tmp_NextPermutation.java [4])
 Underfull \hbox (badness 10000) in paragraph at lines 69--69
 \EU2/SourceCodePro(0)/m/n/10 addClause(G,1,2); ad-d-Clause(G,-3,4); int[]
  []
 
-[4] (./Algorithms/tmp_TwoSAT.java) (./Graphs/tmp_BellmanFord.java)
+(./Algorithms/tmp_TwoSAT.java) (./Graphs/tmp_BellmanFord.java)
 (./Graphs/tmp_BipartiteGraphCheck.java [5])
-(./Graphs/tmp_BipartitesMatching.java) (./Graphs/tmp_DFS.java)
-(./Graphs/tmp_Dijkstra.java [6]) (./Graphs/tmp_EdmondsKarp.java)
-(./Graphs/tmp_FenwickTree.java) (./Graphs/tmp_FloydWarshall.java [7])
+(./Graphs/tmp_BipartitesMatching.java) (./Graphs/tmp_DFS.java) [6]
+(./Graphs/tmp_Dijkstra.java) (./Graphs/tmp_EdmondsKarp.java)
+(./Graphs/tmp_FenwickTree.java) [7] (./Graphs/tmp_FloydWarshall.java)
 (./Graphs/tmp_IterativeBFSAdjMatr.java) (./Graphs/tmp_Kruskal.java [8])
 (./Graphs/tmp_Mincut.java
 LaTeX Font Info:    Try loading font information for EU2+lmtt on input line 28.
@@ -1335,9 +1335,9 @@ luaotfload | load : no defaults for script "latn", falling back to "dflt"(load l
 uc: /home/thore/.texmf-var/luatex-cache/generic/fonts/otf/lmmono8-regular.luc))
 
 (./Graphs/tmp_SCC.java [9]) (./Graphs/tmp_Suurballe.java)
-(./Graphs/tmp_TopologischeSortierung.java) [10]
+(./Graphs/tmp_TopologischeSortierung.java [10])
 (./Math/tmp_BinomialCoefficient.java) (./Math/tmp_BinomialMatrix.java)
-(./Math/tmp_ConvexHull.java) (./Math/tmp_Divisability.java [11])
+(./Math/tmp_ConvexHull.java) [11] (./Math/tmp_Divisability.java)
 (./Math/tmp_IterativeEEA.java) (./Math/tmp_PolynomialInterpolation.java
 [12]) (./Math/tmp_SieveOfEratosthenes.java)
 luaotfload | load : auto-selecting default features for script: latn
@@ -1377,7 +1377,7 @@ nvironment!.
 Package multicol Warning: Floats and marginpars not allowed inside `multicols' e
 nvironment!.
 
-<tcs-cheat-sheet.pdf, id=1541, 597.23125pt x 845.1575pt>
+<tcs-cheat-sheet.pdf, id=1544, 597.23125pt x 845.1575pt>
 File: tcs-cheat-sheet.pdf Graphic file (type pdf)
 
 <use tcs-cheat-sheet.pdf>
@@ -1388,7 +1388,7 @@ File: tcs-cheat-sheet.pdf Graphic file (type pdf)
 Package pdftex.def Info: tcs-cheat-sheet.pdf used on input line 267.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
  [14]
-<tcs-cheat-sheet.pdf, id=1558, page=1, 597.23125pt x 845.1575pt>
+<tcs-cheat-sheet.pdf, id=1563, page=1, 597.23125pt x 845.1575pt>
 File: tcs-cheat-sheet.pdf Graphic file (type pdf)
 
 <use tcs-cheat-sheet.pdf, page 1>
@@ -1413,7 +1413,7 @@ File: tcs-cheat-sheet.pdf Graphic file (type pdf)
 Package pdftex.def Info: tcs-cheat-sheet.pdf, page1 used on input line 267.
 (pdftex.def)             Requested size: 553.8515pt x 710.99324pt.
  [15 <./tcs-cheat-sheet.pdf>]
-<tcs-cheat-sheet.pdf, id=1884, page=2, 597.23125pt x 845.1575pt>
+<tcs-cheat-sheet.pdf, id=1889, page=2, 597.23125pt x 845.1575pt>
 File: tcs-cheat-sheet.pdf Graphic file (type pdf)
 
 <use tcs-cheat-sheet.pdf, page 2>
@@ -1429,7 +1429,7 @@ File: tcs-cheat-sheet.pdf Graphic file (type pdf)
 Package pdftex.def Info: tcs-cheat-sheet.pdf, page2 used on input line 267.
 (pdftex.def)             Requested size: 553.8515pt x 710.99324pt.
  [16 <./tcs-cheat-sheet.pdf>]
-<tcs-cheat-sheet.pdf, id=1920, page=3, 597.23125pt x 845.1575pt>
+<tcs-cheat-sheet.pdf, id=1925, page=3, 597.23125pt x 845.1575pt>
 File: tcs-cheat-sheet.pdf Graphic file (type pdf)
 
 <use tcs-cheat-sheet.pdf, page 3>
@@ -1445,7 +1445,7 @@ File: tcs-cheat-sheet.pdf Graphic file (type pdf)
 Package pdftex.def Info: tcs-cheat-sheet.pdf, page3 used on input line 267.
 (pdftex.def)             Requested size: 553.8515pt x 710.99324pt.
  [17 <./tcs-cheat-sheet.pdf>]
-<tcs-cheat-sheet.pdf, id=1933, page=4, 597.23125pt x 845.1575pt>
+<tcs-cheat-sheet.pdf, id=1939, page=4, 597.23125pt x 845.1575pt>
 File: tcs-cheat-sheet.pdf Graphic file (type pdf)
 
 <use tcs-cheat-sheet.pdf, page 4>
@@ -1461,7 +1461,7 @@ File: tcs-cheat-sheet.pdf Graphic file (type pdf)
 Package pdftex.def Info: tcs-cheat-sheet.pdf, page4 used on input line 267.
 (pdftex.def)             Requested size: 553.8515pt x 710.99324pt.
  [18 <./tcs-cheat-sheet.pdf>]
-<tcs-cheat-sheet.pdf, id=1984, page=5, 597.23125pt x 845.1575pt>
+<tcs-cheat-sheet.pdf, id=1989, page=5, 597.23125pt x 845.1575pt>
 File: tcs-cheat-sheet.pdf Graphic file (type pdf)
 
 <use tcs-cheat-sheet.pdf, page 5>
@@ -1477,7 +1477,7 @@ File: tcs-cheat-sheet.pdf Graphic file (type pdf)
 Package pdftex.def Info: tcs-cheat-sheet.pdf, page5 used on input line 267.
 (pdftex.def)             Requested size: 553.8515pt x 710.99324pt.
  [19 <./tcs-cheat-sheet.pdf>]
-<tcs-cheat-sheet.pdf, id=2038, page=6, 597.23125pt x 845.1575pt>
+<tcs-cheat-sheet.pdf, id=2043, page=6, 597.23125pt x 845.1575pt>
 File: tcs-cheat-sheet.pdf Graphic file (type pdf)
 
 <use tcs-cheat-sheet.pdf, page 6>
@@ -1493,7 +1493,7 @@ File: tcs-cheat-sheet.pdf Graphic file (type pdf)
 Package pdftex.def Info: tcs-cheat-sheet.pdf, page6 used on input line 267.
 (pdftex.def)             Requested size: 553.8515pt x 710.99324pt.
  [20 <./tcs-cheat-sheet.pdf>]
-<tcs-cheat-sheet.pdf, id=2051, page=7, 597.23125pt x 845.1575pt>
+<tcs-cheat-sheet.pdf, id=2056, page=7, 597.23125pt x 845.1575pt>
 File: tcs-cheat-sheet.pdf Graphic file (type pdf)
 
 <use tcs-cheat-sheet.pdf, page 7>
@@ -1509,7 +1509,7 @@ File: tcs-cheat-sheet.pdf Graphic file (type pdf)
 Package pdftex.def Info: tcs-cheat-sheet.pdf, page7 used on input line 267.
 (pdftex.def)             Requested size: 553.8515pt x 710.99324pt.
  [21 <./tcs-cheat-sheet.pdf>]
-<tcs-cheat-sheet.pdf, id=2065, page=8, 597.23125pt x 845.1575pt>
+<tcs-cheat-sheet.pdf, id=2070, page=8, 597.23125pt x 845.1575pt>
 File: tcs-cheat-sheet.pdf Graphic file (type pdf)
 
 <use tcs-cheat-sheet.pdf, page 8>
@@ -1525,7 +1525,7 @@ File: tcs-cheat-sheet.pdf Graphic file (type pdf)
 Package pdftex.def Info: tcs-cheat-sheet.pdf, page8 used on input line 267.
 (pdftex.def)             Requested size: 553.8515pt x 710.99324pt.
  [22 <./tcs-cheat-sheet.pdf>]
-<tcs-cheat-sheet.pdf, id=2078, page=9, 597.23125pt x 845.1575pt>
+<tcs-cheat-sheet.pdf, id=2083, page=9, 597.23125pt x 845.1575pt>
 File: tcs-cheat-sheet.pdf Graphic file (type pdf)
 
 <use tcs-cheat-sheet.pdf, page 9>
@@ -1541,7 +1541,7 @@ File: tcs-cheat-sheet.pdf Graphic file (type pdf)
 Package pdftex.def Info: tcs-cheat-sheet.pdf, page9 used on input line 267.
 (pdftex.def)             Requested size: 553.8515pt x 710.99324pt.
  [23 <./tcs-cheat-sheet.pdf>]
-<tcs-cheat-sheet.pdf, id=2091, page=10, 597.23125pt x 845.1575pt>
+<tcs-cheat-sheet.pdf, id=2096, page=10, 597.23125pt x 845.1575pt>
 File: tcs-cheat-sheet.pdf Graphic file (type pdf)
 
 <use tcs-cheat-sheet.pdf, page 10>
@@ -1570,14 +1570,14 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 269.
  )
 
 Here is how much of LuaTeX's memory you used:
- 29058 strings out of 493803
- 596149,662416 words of node,token memory allocated
+ 29063 strings out of 493803
+ 596163,662416 words of node,token memory allocated
  7000 words of node memory still in use:
    121 hlist, 8 vlist, 81 rule, 20 math, 465 glue, 9 kern, 2 penalty, 96 glyph, 
 318 attribute, 330 glue_spec, 245 attribute_list, 2 write, 2 local_par, 22 pdf_r
 efximage, 4 pdf_colorstack nodes
-   avail lists: 1:1,2:21219,3:448,4:19810,5:8138,6:3291,7:17009,8:125,9:17710,10
-:1266
+   avail lists: 1:1,2:21870,3:449,4:19422,5:7877,6:3392,7:17250,8:125,9:17133,10
+:1224
  30176 multiletter control sequences out of 65536+600000
  80 fonts using 7703519 bytes
  48i,20n,49p,376b,1423s stack positions out of 5000i,500n,10000p,200000b,100000s
@@ -1602,10 +1602,10 @@ ts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 sy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></
 usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb>
-Output written on tcr-main.pdf (24 pages, 537137 bytes).
+Output written on tcr-main.pdf (24 pages, 538112 bytes).
 
-PDF statistics: 2242 PDF objects out of 2487 (max. 8388607)
- 1735 compressed objects within 18 object streams
- 1254 named destinations out of 1440 (max. 131072)
+PDF statistics: 2247 PDF objects out of 2487 (max. 8388607)
+ 1740 compressed objects within 18 object streams
+ 1259 named destinations out of 1440 (max. 131072)
  583 words of extra memory for PDF output out of 10000 (max. 10000000)
 

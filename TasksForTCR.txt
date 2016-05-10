@@ -1,7 +1,6 @@
 TCR - Aufgaben:
 
 Fehlende Kommentare:
--Binary Search
 -Levenshtein Distance (von Anton)
 -Longest Common Subsequence (von Anton)
 -Longest Increasing Subsequence
