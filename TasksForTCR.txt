@@ -10,7 +10,6 @@ Fehlende Kommentare:
 -Edmonds Karp
 -Fenwick Tree
 -Floyd-Warshall
--BFS
 -MinCut (ziemlich schlechter Code)
 -Kruskal
 

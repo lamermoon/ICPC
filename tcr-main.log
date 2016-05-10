@@ -1,4 +1,4 @@
-This is LuaTeX, Version beta-0.76.0-2013121407 (rev 4627)  (format=lualatex 2014.8.18)  10 MAY 2016 13:13
+This is LuaTeX, Version beta-0.76.0-2013121407 (rev 4627)  (format=lualatex 2014.8.18)  10 MAY 2016 13:36
  \write18 enabled.
 **tcr-main.tex
 (./tcr-main.tex
@@ -519,9 +519,9 @@ Language: english 2012/08/20 v3.3p English support from the babel system
 luaotfload | load : auto-selecting default features for script: dflt(load luc: /
 home/thore/.texmf-var/luatex-cache/generic/fonts/otf/texgyretermes-regular.luc)
 luaotfload | load : auto-selecting default features for script: dflt
-luaotfload: font no 22 (TeXGyreTermes-Regular) defines feature aalt for script l
+luaotfload: font no 22 (TeXGyreTermes-Regular) defines feature cpsp for script l
 atn
-luaotfload: font no 22 (TeXGyreTermes-Regular) defines feature aalt for script l
+luaotfload: font no 22 (TeXGyreTermes-Regular) defines feature cpsp for script l
 atn
 \g_fontspec_family_TeX Gyre Termes_int=\count319
 luaotfload | load : auto-selecting default features for script: dflt
@@ -592,9 +592,9 @@ luaotfload | load : no defaults for script "latn", falling back to "dflt"
 luaotfload | load : auto-selecting default features for script: dflt(load luc: /
 home/thore/.texmf-var/luatex-cache/generic/fonts/otf/sourcecodepro-regular.luc)
 luaotfload | load : auto-selecting default features for script: dflt
-luaotfload: font no 27 (SourceCodePro-Regular) defines feature aalt for script l
+luaotfload: font no 27 (SourceCodePro-Regular) defines feature mark for script l
 atn
-luaotfload: font no 27 (SourceCodePro-Regular) defines feature aalt for script l
+luaotfload: font no 27 (SourceCodePro-Regular) defines feature mark for script l
 atn
 \g_fontspec_family_Source Code Pro_int=\count320
 luaotfload | load : auto-selecting default features for script: dflt
@@ -1334,12 +1334,12 @@ luaotfload | load : auto-selecting default features for script: latn
 luaotfload | load : no defaults for script "latn", falling back to "dflt"(load l
 uc: /home/thore/.texmf-var/luatex-cache/generic/fonts/otf/lmmono8-regular.luc))
 
-(./Graphs/tmp_SCC.java) [9] (./Graphs/tmp_Suurballe.java)
-(./Graphs/tmp_TopologischeSortierung.java) (./Math/tmp_BinomialCoefficient.java
-[10]) (./Math/tmp_BinomialMatrix.java) (./Math/tmp_ConvexHull.java)
-(./Math/tmp_Divisability.java [11]) (./Math/tmp_IterativeEEA.java)
-(./Math/tmp_PolynomialInterpolation.java [12])
-(./Math/tmp_SieveOfEratosthenes.java)
+(./Graphs/tmp_SCC.java [9]) (./Graphs/tmp_Suurballe.java)
+(./Graphs/tmp_TopologischeSortierung.java) [10]
+(./Math/tmp_BinomialCoefficient.java) (./Math/tmp_BinomialMatrix.java)
+(./Math/tmp_ConvexHull.java) (./Math/tmp_Divisability.java [11])
+(./Math/tmp_IterativeEEA.java) (./Math/tmp_PolynomialInterpolation.java
+[12]) (./Math/tmp_SieveOfEratosthenes.java)
 luaotfload | load : auto-selecting default features for script: latn
 luaotfload | load : no defaults for script "latn", falling back to "dflt"
 
@@ -1364,12 +1364,11 @@ r-mu-ta-tions with-out fixed points)\EU2/TeXGyreTermes(0)/m/n/10 : $\OT1/cmr/m/
 n/10 !\OML/cmm/m/it/10 n \OT1/cmr/m/n/10 =
  []
 
-
+[13]
 Overfull \hbox (49.65205pt too wide) in paragraph at lines 216--223
 [][][] 
  []
 
-[13]
 
 Package multicol Warning: Floats and marginpars not allowed inside `multicols' e
 nvironment!.
@@ -1378,7 +1377,7 @@ nvironment!.
 Package multicol Warning: Floats and marginpars not allowed inside `multicols' e
 nvironment!.
 
-<tcs-cheat-sheet.pdf, id=1532, 597.23125pt x 845.1575pt>
+<tcs-cheat-sheet.pdf, id=1537, 597.23125pt x 845.1575pt>
 File: tcs-cheat-sheet.pdf Graphic file (type pdf)
 
 <use tcs-cheat-sheet.pdf>
@@ -1389,7 +1388,7 @@ File: tcs-cheat-sheet.pdf Graphic file (type pdf)
 Package pdftex.def Info: tcs-cheat-sheet.pdf used on input line 267.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
  [14]
-<tcs-cheat-sheet.pdf, id=1549, page=1, 597.23125pt x 845.1575pt>
+<tcs-cheat-sheet.pdf, id=1554, page=1, 597.23125pt x 845.1575pt>
 File: tcs-cheat-sheet.pdf Graphic file (type pdf)
 
 <use tcs-cheat-sheet.pdf, page 1>
@@ -1414,7 +1413,7 @@ File: tcs-cheat-sheet.pdf Graphic file (type pdf)
 Package pdftex.def Info: tcs-cheat-sheet.pdf, page1 used on input line 267.
 (pdftex.def)             Requested size: 553.8515pt x 710.99324pt.
  [15 <./tcs-cheat-sheet.pdf>]
-<tcs-cheat-sheet.pdf, id=1875, page=2, 597.23125pt x 845.1575pt>
+<tcs-cheat-sheet.pdf, id=1880, page=2, 597.23125pt x 845.1575pt>
 File: tcs-cheat-sheet.pdf Graphic file (type pdf)
 
 <use tcs-cheat-sheet.pdf, page 2>
@@ -1430,7 +1429,7 @@ File: tcs-cheat-sheet.pdf Graphic file (type pdf)
 Package pdftex.def Info: tcs-cheat-sheet.pdf, page2 used on input line 267.
 (pdftex.def)             Requested size: 553.8515pt x 710.99324pt.
  [16 <./tcs-cheat-sheet.pdf>]
-<tcs-cheat-sheet.pdf, id=1911, page=3, 597.23125pt x 845.1575pt>
+<tcs-cheat-sheet.pdf, id=1916, page=3, 597.23125pt x 845.1575pt>
 File: tcs-cheat-sheet.pdf Graphic file (type pdf)
 
 <use tcs-cheat-sheet.pdf, page 3>
@@ -1446,7 +1445,7 @@ File: tcs-cheat-sheet.pdf Graphic file (type pdf)
 Package pdftex.def Info: tcs-cheat-sheet.pdf, page3 used on input line 267.
 (pdftex.def)             Requested size: 553.8515pt x 710.99324pt.
  [17 <./tcs-cheat-sheet.pdf>]
-<tcs-cheat-sheet.pdf, id=1924, page=4, 597.23125pt x 845.1575pt>
+<tcs-cheat-sheet.pdf, id=1929, page=4, 597.23125pt x 845.1575pt>
 File: tcs-cheat-sheet.pdf Graphic file (type pdf)
 
 <use tcs-cheat-sheet.pdf, page 4>
@@ -1462,7 +1461,7 @@ File: tcs-cheat-sheet.pdf Graphic file (type pdf)
 Package pdftex.def Info: tcs-cheat-sheet.pdf, page4 used on input line 267.
 (pdftex.def)             Requested size: 553.8515pt x 710.99324pt.
  [18 <./tcs-cheat-sheet.pdf>]
-<tcs-cheat-sheet.pdf, id=1975, page=5, 597.23125pt x 845.1575pt>
+<tcs-cheat-sheet.pdf, id=1980, page=5, 597.23125pt x 845.1575pt>
 File: tcs-cheat-sheet.pdf Graphic file (type pdf)
 
 <use tcs-cheat-sheet.pdf, page 5>
@@ -1478,7 +1477,7 @@ File: tcs-cheat-sheet.pdf Graphic file (type pdf)
 Package pdftex.def Info: tcs-cheat-sheet.pdf, page5 used on input line 267.
 (pdftex.def)             Requested size: 553.8515pt x 710.99324pt.
  [19 <./tcs-cheat-sheet.pdf>]
-<tcs-cheat-sheet.pdf, id=2029, page=6, 597.23125pt x 845.1575pt>
+<tcs-cheat-sheet.pdf, id=2034, page=6, 597.23125pt x 845.1575pt>
 File: tcs-cheat-sheet.pdf Graphic file (type pdf)
 
 <use tcs-cheat-sheet.pdf, page 6>
@@ -1494,7 +1493,7 @@ File: tcs-cheat-sheet.pdf Graphic file (type pdf)
 Package pdftex.def Info: tcs-cheat-sheet.pdf, page6 used on input line 267.
 (pdftex.def)             Requested size: 553.8515pt x 710.99324pt.
  [20 <./tcs-cheat-sheet.pdf>]
-<tcs-cheat-sheet.pdf, id=2042, page=7, 597.23125pt x 845.1575pt>
+<tcs-cheat-sheet.pdf, id=2047, page=7, 597.23125pt x 845.1575pt>
 File: tcs-cheat-sheet.pdf Graphic file (type pdf)
 
 <use tcs-cheat-sheet.pdf, page 7>
@@ -1510,7 +1509,7 @@ File: tcs-cheat-sheet.pdf Graphic file (type pdf)
 Package pdftex.def Info: tcs-cheat-sheet.pdf, page7 used on input line 267.
 (pdftex.def)             Requested size: 553.8515pt x 710.99324pt.
  [21 <./tcs-cheat-sheet.pdf>]
-<tcs-cheat-sheet.pdf, id=2056, page=8, 597.23125pt x 845.1575pt>
+<tcs-cheat-sheet.pdf, id=2061, page=8, 597.23125pt x 845.1575pt>
 File: tcs-cheat-sheet.pdf Graphic file (type pdf)
 
 <use tcs-cheat-sheet.pdf, page 8>
@@ -1526,7 +1525,7 @@ File: tcs-cheat-sheet.pdf Graphic file (type pdf)
 Package pdftex.def Info: tcs-cheat-sheet.pdf, page8 used on input line 267.
 (pdftex.def)             Requested size: 553.8515pt x 710.99324pt.
  [22 <./tcs-cheat-sheet.pdf>]
-<tcs-cheat-sheet.pdf, id=2069, page=9, 597.23125pt x 845.1575pt>
+<tcs-cheat-sheet.pdf, id=2074, page=9, 597.23125pt x 845.1575pt>
 File: tcs-cheat-sheet.pdf Graphic file (type pdf)
 
 <use tcs-cheat-sheet.pdf, page 9>
@@ -1542,7 +1541,7 @@ File: tcs-cheat-sheet.pdf Graphic file (type pdf)
 Package pdftex.def Info: tcs-cheat-sheet.pdf, page9 used on input line 267.
 (pdftex.def)             Requested size: 553.8515pt x 710.99324pt.
  [23 <./tcs-cheat-sheet.pdf>]
-<tcs-cheat-sheet.pdf, id=2082, page=10, 597.23125pt x 845.1575pt>
+<tcs-cheat-sheet.pdf, id=2087, page=10, 597.23125pt x 845.1575pt>
 File: tcs-cheat-sheet.pdf Graphic file (type pdf)
 
 <use tcs-cheat-sheet.pdf, page 10>
@@ -1565,20 +1564,27 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 269.
 (./tcr-main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 269.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 269.
-Package rerunfilecheck Info: File `tcr-main.out' has not changed.
-(rerunfilecheck)             Checksum: B6A421AA9769E8C033B549B51DCF66EE;3233.
+
+
+Package rerunfilecheck Warning: File `tcr-main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `tcr-main.out':
+(rerunfilecheck)             Before: B6A421AA9769E8C033B549B51DCF66EE;3233
+(rerunfilecheck)             After:  939191930774C831E5C265B9E3275C6D;3257.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 269.
  )
 
 Here is how much of LuaTeX's memory you used:
- 29049 strings out of 493803
- 596169,662416 words of node,token memory allocated
+ 29054 strings out of 493803
+ 596165,662416 words of node,token memory allocated
  7000 words of node memory still in use:
    121 hlist, 8 vlist, 81 rule, 20 math, 465 glue, 9 kern, 2 penalty, 96 glyph, 
 318 attribute, 330 glue_spec, 245 attribute_list, 2 write, 2 local_par, 22 pdf_r
 efximage, 4 pdf_colorstack nodes
-   avail lists: 1:2,2:20063,3:444,4:20653,5:8502,6:3192,7:16824,8:124,9:18553,10
-:1335
+   avail lists: 1:3,2:20112,3:444,4:19981,5:8207,6:3182,7:16887,8:125,9:17898,10
+:1271
  30176 multiletter control sequences out of 65536+600000
  80 fonts using 7703519 bytes
  48i,20n,49p,376b,1423s stack positions out of 5000i,500n,10000p,200000b,100000s
@@ -1603,10 +1609,10 @@ ts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 sy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></
 usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb>
-Output written on tcr-main.pdf (24 pages, 535468 bytes).
+Output written on tcr-main.pdf (24 pages, 536118 bytes).
 
-PDF statistics: 2232 PDF objects out of 2487 (max. 8388607)
- 1725 compressed objects within 18 object streams
- 1245 named destinations out of 1440 (max. 131072)
+PDF statistics: 2238 PDF objects out of 2487 (max. 8388607)
+ 1731 compressed objects within 18 object streams
+ 1250 named destinations out of 1440 (max. 131072)
  583 words of extra memory for PDF output out of 10000 (max. 10000000)
 
