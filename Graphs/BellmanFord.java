@@ -4,24 +4,26 @@
  */
 
 //START
-public static boolean bellmanFord(Vertex[] vertices) {
+public static boolean bellmanFord(Vertex[] G) {
    //source is 0
-   vertices[0].mindistance = 0;
+   G[0].dist = 0;
    //calc distances
-   for(int i = 0; i < vertices.length-1; i++) {
-      for(int j = 0; j < vertices.length; j++) {
-         for(Edge e: vertices[j].adjacencies) {
-            if(vertices[j].mindistance != Integer.MAX_VALUE 
-               && e.target.mindistance > vertices[j].mindistance + e.distance) {
-               e.target.mindistance = vertices[j].mindistance + e.distance;
+   //the path has max length |V|-1
+   for(int i = 0; i < G.length-1; i++) {
+       //each iteration relax all edges
+      for(int j = 0; j < G.length; j++) {
+         for(Edge e : G[j].adj) {
+            if(G[j].dist != Integer.MAX_VALUE 
+               && e.t.dist > G[j].dist + e.w) {
+               e.t.dist = G[j].dist + e.w;
             }
          }
       }
    }
    //check for negative-length cycle
-   for(int i = 0; i < vertices.length; i++) {
-      for(Edge e: vertices[i].adjacencies) {
-         if(vertices[i].mindistance != Integer.MAX_VALUE && e.target.mindistance > vertices[i].mindistance + e.distance) {
+   for(int i = 0; i < G.length; i++) {
+      for(Edge e : G[i].adj) {
+         if(G[i].dist != Integer.MAX_VALUE && e.t.dist > G[i].dist + e.w) {
             return true;
          }
       }

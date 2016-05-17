@@ -1,0 +1,49 @@
+/*Strongly Connected Components
+**|V| + |E|
+*
+*/
+
+//START
+public static void fDFS(Vertex u, LinkedList<Integer> sorting) {
+    u.vis = true;
+    for(Vertex v : u.out) {
+	if(!v.vis) {
+	    fDFS(v, sorting);
+	}
+    }
+    sorting.addFirst(u.id);
+    return sorting;
+}
+
+public static void sDFS(Vertex u, cnt) {
+    u.vis = true;
+    u.comp = cnt;
+    for(Vertex v : u.in) {
+	if(!v.vis) {
+	    sDFS(u, cnt);
+	}
+    }
+}
+
+public static void doubleDFS(Vertex[] G) {
+
+    LinkedList<Integer> sorting = new LinkedList<Integer>();
+    for(int i = 0; i < G.length; i++) {
+	if(!G[i].vis) {
+	    fDFS(G[i], sorting);
+	}
+    }
+    int cnt = 0;
+    for(int i : sorting) {
+	if(!G[i].vis) {
+	    sDFS(G[i], cnt++);
+	}
+    }
+}
+
+public static void SCC(Vertex[] G) {
+
+    LinkedList<Integer> first = doubleDFS(Vertex[] G);
+    
+
+}

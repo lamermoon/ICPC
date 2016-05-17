@@ -9,48 +9,32 @@
  */
 
 //START
-public static void dijkstra(Vertex[] vertices, int src) {
-   vertices[src].mindistance = 0;
-   PriorityQueue<Vertex> queue = new PriorityQueue<Vertex>();
-   queue.add(vertices[src]);
-   while(!queue.isEmpty()) {
-      Vertex u = queue.poll();
-      if(u.visited)
-         continue;
-      u.visited = true;
-      for(Edge e : u.adjacencies) {
-         Vertex v = e.target;
-         if(v.mindistance > u.mindistance + e.distance) {
-            v.mindistance = u.mindistance + e.distance;
-            queue.add(v);
-         }
-      }
-   }
-}
-//END
+public static void dijkstra(Vertex[] G, int s) {
+    G[s].dist = 0;
+    
+    //Tuple class can be found at Prims Alg, maybe we should give this class its own space
+    Tuple st = new Tuple(s, 0);
 
-//START
-class Vertex implements Comparable<Vertex> {
-   public int id;
-   public int mindistance = Integer.MAX_VALUE;
-   public LinkedList<Edge> adjacencies = new LinkedList<Edge>();
-   public boolean visited = false;
+    PriorityQueue<Tuple> q = new PriorityQueue<Tuple>();
+    q.add(G[s]);
+    
+    while(!q.isEmpty()) {
+	Tuple sm = q.poll();
+	Vertex u = G[sm.id];
 
-   public int compareTo(Vertex other) {
-      return Integer.compare(this.mindistance, other.mindistance);
-   }
-}
-//END
-
-//START
-class Edge {
-   public Vertex target;
-   public int distance;
-   
-   public Edge (Vertex target, int distance) {
-      this.target = target;
-      this.distance = distance;
-   }
+	if(u.vis) continue;
+	if(sm.dist > u.dist) continue;
+	u.vis = true;
+	for(Edge e : u.adj) {
+	    Vertex v = e.t;
+	    if(!v.vis && v.dist > u.dist + e.w) {
+		v.pre = u.id;
+		v.dist = u.dist + e.w;
+		Tuple nt = new Tuple(v.id, v.dist);
+		queue.add(nt);
+	    }
+	}
+    }
 }
 //END
 
