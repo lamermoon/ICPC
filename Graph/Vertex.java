@@ -31,6 +31,9 @@ class Vertex {
     //for EdmondsKarp we need a HashMap to store Edges
     HashMap<Integer, Edge> adj = new HashMap<Integer, Edge>();
 
+    //for bipartite graph check
+    int color = -1;
+
     //we store as key the target
     public Vertex(int id) {
 	this.id = id;
