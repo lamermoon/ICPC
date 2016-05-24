@@ -1,6 +1,8 @@
-/* Iterative EEA 
+/* Extended Euclidean Algorithm (iterative)
  ** \log a + \log b
- * Berechnet den ggT zweier Zahlen $a$ und $b$ und deren modulare Inverse $x = a^{-1}\mod b$ und $y = b^{-1}\mod a$.
+ * Calculates the gcd of two numbers $a$ and $b$ and their modular inverse $x = a^{-1}\mod b$ and $y = b^{-1}\mod a$.\\
+ * \emph{Input:} Numbers $a$ and $b$ or array of numbers $input$\\
+ * \emph{Output:} Least common multiple of the input
  */
 
 import java.util.Scanner;

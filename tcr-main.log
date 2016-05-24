@@ -1,4 +1,4 @@
-This is LuaTeX, Version beta-0.76.0-2013121407 (rev 4627)  (format=lualatex 2014.8.18)  24 MAY 2016 13:26
+This is LuaTeX, Version beta-0.76.0-2013121407 (rev 4627)  (format=lualatex 2014.8.18)  24 MAY 2016 13:50
  \write18 enabled.
 **tcr-main.tex
 (./tcr-main.tex
@@ -351,7 +351,7 @@ luaotfload:  then use the possibly updated libraries. The merged
 luaotfload:  version is not supported as it is a frozen instance.
 luaotfload:  Problems can be reported to the ConTeXt mailing list."
 luaotfload: pop namespace from font loader -- non-destructive
-luaotfload: fontloader loaded in 0.032 seconds
+luaotfload: fontloader loaded in 0.033 seconds
 luatexbase-mcb: inserting 'luaotfload.node_processor'
 at position 1 in 'pre_linebreak_filter'
 luatexbase-mcb: inserting 'luaotfload.node_processor'
@@ -1210,7 +1210,7 @@ Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             install/macros/latex/contrib/pageslts.tds.zip
 (lastpage)             ! on input line 97.
 \c@lstlisting=\count381
-<img/logo_uzl.pdf, id=209, 284.52798pt x 113.8112pt>
+<img/logo_uzl.pdf, id=217, 284.52798pt x 113.8112pt>
 File: img/logo_uzl.pdf Graphic file (type pdf)
  <use img/logo_uzl.pdf>
 Package pdftex.def Info: img/logo_uzl.pdf used on input line 101.
@@ -1337,8 +1337,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 161--161
 (./Math/tmp_BinomialMatrix.java) (./Math/tmp_ConvexHull.java) [11]
 (./Math/tmp_Divisability.java) (./Math/tmp_IterativeEEA.java)
 (./Math/tmp_PolynomialInterpolation.java [12])
-(./Math/tmp_SieveOfEratosthenes.java) (./Misc/tmp_BinarySearch.java)
-(./String/tmp_LongestCommonSubsequence.java [13])
+(./Math/tmp_SieveOfEratosthenes.java) (./Math/tmp_gcd.java)
+(./Math/tmp_lcm.java) (./Misc/tmp_BinarySearch.java [13])
+(./String/tmp_LongestCommonSubsequence.java)
 luaotfload | load : auto-selecting default features for script: latn
 luaotfload | load : no defaults for script "latn", falling back to "dflt"
 
@@ -1363,7 +1364,7 @@ r-mu-ta-tions with-out fixed points)\EU2/TeXGyreTermes(0)/m/n/10 : $\OT1/cmr/m/
 n/10 !\OML/cmm/m/it/10 n \OT1/cmr/m/n/10 =
  []
 
-
+[14]
 Overfull \hbox (49.65205pt too wide) in paragraph at lines 216--223
 [][][] 
  []
@@ -1376,7 +1377,7 @@ nvironment!.
 Package multicol Warning: Floats and marginpars not allowed inside `multicols' e
 nvironment!.
 
-[14] <tcs-cheat-sheet.pdf, id=1617, 597.23125pt x 845.1575pt>
+<tcs-cheat-sheet.pdf, id=1649, 597.23125pt x 845.1575pt>
 File: tcs-cheat-sheet.pdf Graphic file (type pdf)
 
 <use tcs-cheat-sheet.pdf>
@@ -1387,7 +1388,7 @@ File: tcs-cheat-sheet.pdf Graphic file (type pdf)
 Package pdftex.def Info: tcs-cheat-sheet.pdf used on input line 267.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
  [15]
-<tcs-cheat-sheet.pdf, id=1633, page=1, 597.23125pt x 845.1575pt>
+<tcs-cheat-sheet.pdf, id=1668, page=1, 597.23125pt x 845.1575pt>
 File: tcs-cheat-sheet.pdf Graphic file (type pdf)
 
 <use tcs-cheat-sheet.pdf, page 1>
@@ -1412,7 +1413,7 @@ File: tcs-cheat-sheet.pdf Graphic file (type pdf)
 Package pdftex.def Info: tcs-cheat-sheet.pdf, page1 used on input line 267.
 (pdftex.def)             Requested size: 553.8515pt x 710.99324pt.
  [16 <./tcs-cheat-sheet.pdf>]
-<tcs-cheat-sheet.pdf, id=1959, page=2, 597.23125pt x 845.1575pt>
+<tcs-cheat-sheet.pdf, id=1994, page=2, 597.23125pt x 845.1575pt>
 File: tcs-cheat-sheet.pdf Graphic file (type pdf)
 
 <use tcs-cheat-sheet.pdf, page 2>
@@ -1428,7 +1429,7 @@ File: tcs-cheat-sheet.pdf Graphic file (type pdf)
 Package pdftex.def Info: tcs-cheat-sheet.pdf, page2 used on input line 267.
 (pdftex.def)             Requested size: 553.8515pt x 710.99324pt.
  [17 <./tcs-cheat-sheet.pdf>]
-<tcs-cheat-sheet.pdf, id=1995, page=3, 597.23125pt x 845.1575pt>
+<tcs-cheat-sheet.pdf, id=2030, page=3, 597.23125pt x 845.1575pt>
 File: tcs-cheat-sheet.pdf Graphic file (type pdf)
 
 <use tcs-cheat-sheet.pdf, page 3>
@@ -1444,7 +1445,7 @@ File: tcs-cheat-sheet.pdf Graphic file (type pdf)
 Package pdftex.def Info: tcs-cheat-sheet.pdf, page3 used on input line 267.
 (pdftex.def)             Requested size: 553.8515pt x 710.99324pt.
  [18 <./tcs-cheat-sheet.pdf>]
-<tcs-cheat-sheet.pdf, id=2008, page=4, 597.23125pt x 845.1575pt>
+<tcs-cheat-sheet.pdf, id=2043, page=4, 597.23125pt x 845.1575pt>
 File: tcs-cheat-sheet.pdf Graphic file (type pdf)
 
 <use tcs-cheat-sheet.pdf, page 4>
@@ -1460,7 +1461,7 @@ File: tcs-cheat-sheet.pdf Graphic file (type pdf)
 Package pdftex.def Info: tcs-cheat-sheet.pdf, page4 used on input line 267.
 (pdftex.def)             Requested size: 553.8515pt x 710.99324pt.
  [19 <./tcs-cheat-sheet.pdf>]
-<tcs-cheat-sheet.pdf, id=2058, page=5, 597.23125pt x 845.1575pt>
+<tcs-cheat-sheet.pdf, id=2094, page=5, 597.23125pt x 845.1575pt>
 File: tcs-cheat-sheet.pdf Graphic file (type pdf)
 
 <use tcs-cheat-sheet.pdf, page 5>
@@ -1476,7 +1477,7 @@ File: tcs-cheat-sheet.pdf Graphic file (type pdf)
 Package pdftex.def Info: tcs-cheat-sheet.pdf, page5 used on input line 267.
 (pdftex.def)             Requested size: 553.8515pt x 710.99324pt.
  [20 <./tcs-cheat-sheet.pdf>]
-<tcs-cheat-sheet.pdf, id=2112, page=6, 597.23125pt x 845.1575pt>
+<tcs-cheat-sheet.pdf, id=2148, page=6, 597.23125pt x 845.1575pt>
 File: tcs-cheat-sheet.pdf Graphic file (type pdf)
 
 <use tcs-cheat-sheet.pdf, page 6>
@@ -1492,7 +1493,7 @@ File: tcs-cheat-sheet.pdf Graphic file (type pdf)
 Package pdftex.def Info: tcs-cheat-sheet.pdf, page6 used on input line 267.
 (pdftex.def)             Requested size: 553.8515pt x 710.99324pt.
  [21 <./tcs-cheat-sheet.pdf>]
-<tcs-cheat-sheet.pdf, id=2126, page=7, 597.23125pt x 845.1575pt>
+<tcs-cheat-sheet.pdf, id=2162, page=7, 597.23125pt x 845.1575pt>
 File: tcs-cheat-sheet.pdf Graphic file (type pdf)
 
 <use tcs-cheat-sheet.pdf, page 7>
@@ -1508,7 +1509,7 @@ File: tcs-cheat-sheet.pdf Graphic file (type pdf)
 Package pdftex.def Info: tcs-cheat-sheet.pdf, page7 used on input line 267.
 (pdftex.def)             Requested size: 553.8515pt x 710.99324pt.
  [22 <./tcs-cheat-sheet.pdf>]
-<tcs-cheat-sheet.pdf, id=2140, page=8, 597.23125pt x 845.1575pt>
+<tcs-cheat-sheet.pdf, id=2175, page=8, 597.23125pt x 845.1575pt>
 File: tcs-cheat-sheet.pdf Graphic file (type pdf)
 
 <use tcs-cheat-sheet.pdf, page 8>
@@ -1524,7 +1525,7 @@ File: tcs-cheat-sheet.pdf Graphic file (type pdf)
 Package pdftex.def Info: tcs-cheat-sheet.pdf, page8 used on input line 267.
 (pdftex.def)             Requested size: 553.8515pt x 710.99324pt.
  [23 <./tcs-cheat-sheet.pdf>]
-<tcs-cheat-sheet.pdf, id=2153, page=9, 597.23125pt x 845.1575pt>
+<tcs-cheat-sheet.pdf, id=2188, page=9, 597.23125pt x 845.1575pt>
 File: tcs-cheat-sheet.pdf Graphic file (type pdf)
 
 <use tcs-cheat-sheet.pdf, page 9>
@@ -1540,7 +1541,7 @@ File: tcs-cheat-sheet.pdf Graphic file (type pdf)
 Package pdftex.def Info: tcs-cheat-sheet.pdf, page9 used on input line 267.
 (pdftex.def)             Requested size: 553.8515pt x 710.99324pt.
  [24 <./tcs-cheat-sheet.pdf>]
-<tcs-cheat-sheet.pdf, id=2166, page=10, 597.23125pt x 845.1575pt>
+<tcs-cheat-sheet.pdf, id=2201, page=10, 597.23125pt x 845.1575pt>
 File: tcs-cheat-sheet.pdf Graphic file (type pdf)
 
 <use tcs-cheat-sheet.pdf, page 10>
@@ -1564,20 +1565,20 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 269.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 269.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 269.
 Package rerunfilecheck Info: File `tcr-main.out' has not changed.
-(rerunfilecheck)             Checksum: 639F73987CFFB31047D1B065B3329994;3391.
+(rerunfilecheck)             Checksum: 190941A7A18DB8920FB7B5B7B0D3DA9C;3578.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 269.
  )
 
 Here is how much of LuaTeX's memory you used:
- 29130 strings out of 493803
+ 29185 strings out of 493803
  596182,662416 words of node,token memory allocated
- 7000 words of node memory still in use:
+ 6999 words of node memory still in use:
    121 hlist, 8 vlist, 81 rule, 20 math, 465 glue, 9 kern, 2 penalty, 96 glyph, 
 318 attribute, 330 glue_spec, 245 attribute_list, 2 write, 2 local_par, 22 pdf_r
 efximage, 4 pdf_colorstack nodes
-   avail lists: 2:21317,3:457,4:20183,5:8258,6:3260,7:17363,8:127,9:18056,10:125
+   avail lists: 2:21317,3:456,4:20184,5:8258,6:3260,7:17628,8:127,9:18056,10:125
 5
- 30179 multiletter control sequences out of 65536+600000
+ 30183 multiletter control sequences out of 65536+600000
  80 fonts using 7703519 bytes
  48i,20n,49p,376b,1423s stack positions out of 5000i,500n,10000p,200000b,100000s
 </usr/share/texmf/fonts/opentype/public/lm/lmmono8-regular.otf></home/thore/texm
@@ -1601,10 +1602,10 @@ ts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 sy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></
 usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb>
-Output written on tcr-main.pdf (25 pages, 543698 bytes).
+Output written on tcr-main.pdf (25 pages, 547477 bytes).
 
-PDF statistics: 2318 PDF objects out of 2487 (max. 8388607)
- 1809 compressed objects within 19 object streams
- 1311 named destinations out of 1440 (max. 131072)
- 607 words of extra memory for PDF output out of 10000 (max. 10000000)
+PDF statistics: 2354 PDF objects out of 2487 (max. 8388607)
+ 1845 compressed objects within 19 object streams
+ 1338 named destinations out of 1440 (max. 131072)
+ 623 words of extra memory for PDF output out of 10000 (max. 10000000)
 
