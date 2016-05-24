@@ -62,7 +62,7 @@ end
 -- find all dirs in the script folder
 function parse()
     for dir in io.popen('ls -d */', 'r'):lines() do
-        if (dir ~= "img/" and dir ~= "disabled/") then
+        if (dir ~= "img/" and dir ~= "disabled/" and dir ~= "tcr-roland/") then
            parseDir(dir)
         end
     end
