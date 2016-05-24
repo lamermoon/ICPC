@@ -42,8 +42,8 @@
 \contentsline {section}{\numberline {7}Math Roland}{14}{section.7}
 \contentsline {subsection}{\numberline {7.1}Divisability Explanation}{14}{subsection.7.1}
 \contentsline {subsection}{\numberline {7.2}Combinatorics}{14}{subsection.7.2}
-\contentsline {subsection}{\numberline {7.3}Polynomial Interpolation}{14}{subsection.7.3}
-\contentsline {subsubsection}{\numberline {7.3.1}Theory}{14}{subsubsection.7.3.1}
+\contentsline {subsection}{\numberline {7.3}Polynomial Interpolation}{15}{subsection.7.3}
+\contentsline {subsubsection}{\numberline {7.3.1}Theory}{15}{subsubsection.7.3.1}
 \contentsline {subsection}{\numberline {7.4}Fibonacci Sequence}{15}{subsection.7.4}
 \contentsline {subsubsection}{\numberline {7.4.1}Binet's formula}{15}{subsubsection.7.4.1}
 \contentsline {subsubsection}{\numberline {7.4.2}Generalization}{15}{subsubsection.7.4.2}

@@ -1,4 +1,4 @@
-This is LuaTeX, Version beta-0.76.0-2013121407 (rev 4627)  (format=lualatex 2014.8.18)  24 MAY 2016 13:50
+This is LuaTeX, Version beta-0.76.0-2013121407 (rev 4627)  (format=lualatex 2014.8.18)  24 MAY 2016 14:46
  \write18 enabled.
 **tcr-main.tex
 (./tcr-main.tex
@@ -519,9 +519,9 @@ Language: english 2012/08/20 v3.3p English support from the babel system
 luaotfload | load : auto-selecting default features for script: dflt(load luc: /
 home/thore/.texmf-var/luatex-cache/generic/fonts/otf/texgyretermes-regular.luc)
 luaotfload | load : auto-selecting default features for script: dflt
-luaotfload: font no 22 (TeXGyreTermes-Regular) defines feature cpsp for script l
+luaotfload: font no 22 (TeXGyreTermes-Regular) defines feature kern for script l
 atn
-luaotfload: font no 22 (TeXGyreTermes-Regular) defines feature cpsp for script l
+luaotfload: font no 22 (TeXGyreTermes-Regular) defines feature kern for script l
 atn
 \g_fontspec_family_TeX Gyre Termes_int=\count319
 luaotfload | load : auto-selecting default features for script: dflt
@@ -592,9 +592,9 @@ luaotfload | load : no defaults for script "latn", falling back to "dflt"
 luaotfload | load : auto-selecting default features for script: dflt(load luc: /
 home/thore/.texmf-var/luatex-cache/generic/fonts/otf/sourcecodepro-regular.luc)
 luaotfload | load : auto-selecting default features for script: dflt
-luaotfload: font no 27 (SourceCodePro-Regular) defines feature mark for script l
+luaotfload: font no 27 (SourceCodePro-Regular) defines feature mkmk for script l
 atn
-luaotfload: font no 27 (SourceCodePro-Regular) defines feature mark for script l
+luaotfload: font no 27 (SourceCodePro-Regular) defines feature mkmk for script l
 atn
 \g_fontspec_family_Source Code Pro_int=\count320
 luaotfload | load : auto-selecting default features for script: dflt
@@ -1576,7 +1576,7 @@ Here is how much of LuaTeX's memory you used:
    121 hlist, 8 vlist, 81 rule, 20 math, 465 glue, 9 kern, 2 penalty, 96 glyph, 
 318 attribute, 330 glue_spec, 245 attribute_list, 2 write, 2 local_par, 22 pdf_r
 efximage, 4 pdf_colorstack nodes
-   avail lists: 2:21317,3:456,4:20184,5:8258,6:3260,7:17628,8:127,9:18056,10:125
+   avail lists: 2:21317,3:498,4:20184,5:8258,6:3532,7:17619,8:127,9:18056,10:125
 5
  30183 multiletter control sequences out of 65536+600000
  80 fonts using 7703519 bytes
@@ -1602,7 +1602,7 @@ ts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 sy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></
 usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb>
-Output written on tcr-main.pdf (25 pages, 547477 bytes).
+Output written on tcr-main.pdf (25 pages, 547426 bytes).
 
 PDF statistics: 2354 PDF objects out of 2487 (max. 8388607)
  1845 compressed objects within 19 object streams
