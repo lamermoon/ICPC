@@ -1,25 +1,25 @@
 \select@language {english}
 \contentsline {section}{\numberline {1}DataStructures}{2}{section.1}
-\contentsline {subsection}{\numberline {1.1}Range Maximum Query}{2}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.1}Fenwick-Tree}{2}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}Range Maximum Query}{2}{subsection.1.2}
 \contentsline {section}{\numberline {2}Graph}{2}{section.2}
-\contentsline {subsection}{\numberline {2.1}readth First Search}{2}{subsection.2.1}
-\contentsline {subsection}{\numberline {2.2}BellmanFord}{2}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.1}Breadth First Search}{2}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}BellmanFord}{3}{subsection.2.2}
 \contentsline {subsection}{\numberline {2.3}Bipartite Graph Check}{3}{subsection.2.3}
 \contentsline {subsection}{\numberline {2.4}Maximum Bipartite Matching}{3}{subsection.2.4}
-\contentsline {subsection}{\numberline {2.5}Single-source shortest paths in dag}{3}{subsection.2.5}
+\contentsline {subsection}{\numberline {2.5}Single-source shortest paths in dag}{4}{subsection.2.5}
 \contentsline {subsection}{\numberline {2.6}Dijkstra}{4}{subsection.2.6}
 \contentsline {subsection}{\numberline {2.7}EdmondsKarp}{4}{subsection.2.7}
-\contentsline {subsection}{\numberline {2.8}eference for Edge classes}{4}{subsection.2.8}
-\contentsline {subsection}{\numberline {2.9}FenwickTree}{5}{subsection.2.9}
-\contentsline {subsection}{\numberline {2.10}FloydWarshall}{5}{subsection.2.10}
-\contentsline {subsection}{\numberline {2.11}terative DFS}{5}{subsection.2.11}
-\contentsline {subsection}{\numberline {2.12}Johnsons Algorithm}{5}{subsection.2.12}
-\contentsline {subsection}{\numberline {2.13}Kruskal}{6}{subsection.2.13}
-\contentsline {subsection}{\numberline {2.14}rim}{6}{subsection.2.14}
-\contentsline {subsection}{\numberline {2.15}Recursive Depth First Search}{6}{subsection.2.15}
-\contentsline {subsection}{\numberline {2.16}Strongly Connected Components}{7}{subsection.2.16}
-\contentsline {subsection}{\numberline {2.17}Topological Sort}{7}{subsection.2.17}
-\contentsline {subsection}{\numberline {2.18}eference for Vertex classes}{7}{subsection.2.18}
+\contentsline {subsection}{\numberline {2.8}Reference for Edge classes}{5}{subsection.2.8}
+\contentsline {subsection}{\numberline {2.9}FloydWarshall}{5}{subsection.2.9}
+\contentsline {subsection}{\numberline {2.10}terative DFS}{5}{subsection.2.10}
+\contentsline {subsection}{\numberline {2.11}Johnsons Algorithm}{5}{subsection.2.11}
+\contentsline {subsection}{\numberline {2.12}Kruskal}{6}{subsection.2.12}
+\contentsline {subsection}{\numberline {2.13}Prim}{6}{subsection.2.13}
+\contentsline {subsection}{\numberline {2.14}Recursive Depth First Search}{6}{subsection.2.14}
+\contentsline {subsection}{\numberline {2.15}Strongly Connected Components}{7}{subsection.2.15}
+\contentsline {subsection}{\numberline {2.16}Topological Sort}{7}{subsection.2.16}
+\contentsline {subsection}{\numberline {2.17}Reference for Vertex classes}{7}{subsection.2.17}
 \contentsline {section}{\numberline {3}Math}{8}{section.3}
 \contentsline {subsection}{\numberline {3.1}Binomial Coefficient}{8}{subsection.3.1}
 \contentsline {subsection}{\numberline {3.2}Binomial Matrix }{8}{subsection.3.2}

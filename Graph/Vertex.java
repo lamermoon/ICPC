@@ -1,5 +1,5 @@
-/*Reference for Vertex classes
- *Used in many graph algorithms, implements a vertex with its edges. Needs testing.
+/* Reference for Vertex classes
+ * Used in many graph algorithms, implements a vertex with its edges. Needs testing.
  */
 
 

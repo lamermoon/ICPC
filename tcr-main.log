@@ -1,4 +1,4 @@
-This is LuaTeX, Version beta-0.76.0-2013121407 (rev 4627)  (format=lualatex 2014.8.18)  31 MAY 2016 14:46
+This is LuaTeX, Version beta-0.76.0-2013121407 (rev 4627)  (format=lualatex 2014.8.18)  31 MAY 2016 14:56
  \write18 enabled.
 **tcr-main.tex
 (./tcr-main.tex
@@ -519,9 +519,9 @@ Language: english 2012/08/20 v3.3p English support from the babel system
 luaotfload | load : auto-selecting default features for script: dflt(load luc: /
 home/thore/.texmf-var/luatex-cache/generic/fonts/otf/texgyretermes-regular.luc)
 luaotfload | load : auto-selecting default features for script: dflt
-luaotfload: font no 22 (TeXGyreTermes-Regular) defines feature dlig for script l
+luaotfload: font no 22 (TeXGyreTermes-Regular) defines feature kern for script l
 atn
-luaotfload: font no 22 (TeXGyreTermes-Regular) defines feature dlig for script l
+luaotfload: font no 22 (TeXGyreTermes-Regular) defines feature kern for script l
 atn
 \g_fontspec_family_TeX Gyre Termes_int=\count319
 luaotfload | load : auto-selecting default features for script: dflt
@@ -592,9 +592,9 @@ luaotfload | load : no defaults for script "latn", falling back to "dflt"
 luaotfload | load : auto-selecting default features for script: dflt(load luc: /
 home/thore/.texmf-var/luatex-cache/generic/fonts/otf/sourcecodepro-regular.luc)
 luaotfload | load : auto-selecting default features for script: dflt
-luaotfload: font no 27 (SourceCodePro-Regular) defines feature ss04 for script l
+luaotfload: font no 27 (SourceCodePro-Regular) defines feature mkmk for script l
 atn
-luaotfload: font no 27 (SourceCodePro-Regular) defines feature ss04 for script l
+luaotfload: font no 27 (SourceCodePro-Regular) defines feature mkmk for script l
 atn
 \g_fontspec_family_Source Code Pro_int=\count320
 luaotfload | load : auto-selecting default features for script: dflt
@@ -1284,7 +1284,7 @@ luaotfload | load : auto-selecting default features for script: latn
 luaotfload | load : no defaults for script "latn", falling back to "dflt"
 luaotfload | load : auto-selecting default features for script: latn
 luaotfload | load : no defaults for script "latn", falling back to "dflt" (./Da
-taStructures/tmp_RangeMaxQuery.java
+taStructures/tmp_FenwickTree.java
 luaotfload | load : auto-selecting default features for script: latn
 luaotfload | load : no defaults for script "latn", falling back to "dflt"
 luaotfload | load : auto-selecting default features for script: latn
@@ -1307,11 +1307,11 @@ luaotfload | load : auto-selecting default features for script: dflt
 luaotfload | load : auto-selecting default features for script: dflt
 luaotfload | load : auto-selecting default features for script: dflt
 luaotfload | load : auto-selecting default features for script: dflt
-(./Graph/tmp_BFS.java) (./Graph/tmp_BellmanFord.java [2])
-(./Graph/tmp_BipartiteGraphCheck.java) (./Graph/tmp_BipartitesMatching.java)
-(./Graph/tmp_DAGSSP.java [3]) (./Graph/tmp_Dijkstra.java)
-(./Graph/tmp_EdKarp.java) (./Graph/tmp_Edge.java [4])
-(./Graph/tmp_FenwickTree.java) (./Graph/tmp_FloydWarshall.java)
+(./DataStructures/tmp_RangeMaxQuery.java) (./Graph/tmp_BFS.java [2])
+(./Graph/tmp_BellmanFord.java) (./Graph/tmp_BipartiteGraphCheck.java)
+(./Graph/tmp_BipartitesMatching.java [3]) (./Graph/tmp_DAGSSP.java)
+(./Graph/tmp_Dijkstra.java) (./Graph/tmp_EdKarp.java [4])
+(./Graph/tmp_Edge.java) (./Graph/tmp_FloydWarshall.java)
 (./Graph/tmp_ItDFS.java) (./Graph/tmp_Johnson.java [5])
 (./Graph/tmp_Kruskal.java) (./Graph/tmp_Prim.java) (./Graph/tmp_RecDFS.java
 [6]) (./Graph/tmp_StronglyConnectedComponents.java)
@@ -1555,19 +1555,19 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 269.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 269.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 269.
 Package rerunfilecheck Info: File `tcr-main.out' has not changed.
-(rerunfilecheck)             Checksum: 746EF7FA600ADAD990CE4BFF6D2F0ED7;3069.
+(rerunfilecheck)             Checksum: 1617D7EDDB67380DFB0FE16CF1D41F5F;3073.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 269.
  )
 
 Here is how much of LuaTeX's memory you used:
  28581 strings out of 493803
- 476955,662416 words of node,token memory allocated
+ 476925,662416 words of node,token memory allocated
  6999 words of node memory still in use:
    121 hlist, 8 vlist, 81 rule, 20 math, 465 glue, 9 kern, 2 penalty, 96 glyph, 
 318 attribute, 330 glue_spec, 245 attribute_list, 2 write, 2 local_par, 22 pdf_r
 efximage, 4 pdf_colorstack nodes
-   avail lists: 2:21275,3:447,4:19911,5:7799,6:3164,7:13668,8:126,9:17000,10:122
-2
+   avail lists: 1:1,2:20556,3:455,4:19219,5:7946,6:3164,7:13382,8:129,9:17346,10
+:1213
  30092 multiletter control sequences out of 65536+600000
  80 fonts using 7703519 bytes
  48i,20n,49p,376b,1423s stack positions out of 5000i,500n,10000p,200000b,100000s
@@ -1592,7 +1592,7 @@ ts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 sy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm1
 0.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.p
 fb>
-Output written on tcr-main.pdf (21 pages, 496166 bytes).
+Output written on tcr-main.pdf (21 pages, 496123 bytes).
 
 PDF statistics: 1845 PDF objects out of 2073 (max. 8388607)
  1346 compressed objects within 14 object streams

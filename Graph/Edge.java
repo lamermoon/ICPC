@@ -1,5 +1,5 @@
-/*Reference for Edge classes
- *Used for example in Dijkstra algorithm, implements edges with weight. Needs testing.
+/* Reference for Edge classes
+ * Used for example in Dijkstra algorithm, implements edges with weight. Needs testing.
  */
 
 //START

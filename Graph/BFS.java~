@@ -7,15 +7,17 @@
 */
 
 //START
-public static boolean BFS(int s, int t, Vertex[] G) {
+public static boolean BFS(Vertex[] G, int s, int t) {
 
     //make sure that all Vertices vis values are false etc
     
     Queue<Vertex> q = new LinkedList<Vertex>();
+    
     G[s].vis = true;
     G[s].dist = 0;
     G[s].pre = -1;
     q.add(G[s]);
+
     //expand frontier between undiscovered and discovered vertices
     while(!q.isEmpty()) {
 	Vertex u = q.poll();
