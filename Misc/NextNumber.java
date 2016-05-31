@@ -1,4 +1,4 @@
-/* Next number with $n$ bits set
+/* Next number with n bits set
  ** 1
  * From $x$ the smallest number greater than $x$ with the same amount of bits set is computed.
  * Little changes have to be made, if the calculated number has to have length less than 32 bits.\\
