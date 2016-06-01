@@ -13,8 +13,8 @@ public static int kruskal(Edge[] edges, int n) {
     int cnt = 0;
     for(int i = 0; i < edges.length; i++) {
 	if(cnt == n-1) break;
-	if(uf.union(edges[j].s, edges[j].t)) {
-	    sum += edges[j].w;
+	if(uf.union(edges[i].s, edges[i].t)) {
+	    sum += edges[i].w;
 	    cnt++;
 	}
     }

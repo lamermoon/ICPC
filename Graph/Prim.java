@@ -42,18 +42,4 @@ public static int prim(Vertex[] G, int s) {
     return sum;
 
 }
-
-class Tuple implements Comparable<Tuple> {
-
-    int id;
-    int dist;
-
-    public Tuple(int id, int dist) {
-	this.id = id;
-	this.dist = dist;
-    }
-
-    public int compareTo(Tuple other) {
-	return Integer.compare(this.dist, other.dist);
-    }
-}
+//END

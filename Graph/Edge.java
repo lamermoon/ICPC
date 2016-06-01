@@ -3,7 +3,7 @@
  */
 
 //START
-//for Kruskal we need to sort edges, use:
+//for Kruskal we need to sort edges, use: java.lang.Comparable
 class Edge implements Comparable<Edge> {}
 
 class Edge {

@@ -10,20 +10,17 @@
 
 //START
 public static void dijkstra(Vertex[] G, int s) {
-    G[s].dist = 0;
-    
-    //Tuple class can be found at Prims Alg, maybe we should give this class its own space
-    Tuple st = new Tuple(s, 0);
 
+    G[s].dist = 0;
+    Tuple st = new Tuple(s, 0);
     PriorityQueue<Tuple> q = new PriorityQueue<Tuple>();
-    q.add(G[s]);
+    q.add(st);
     
     while(!q.isEmpty()) {
 	Tuple sm = q.poll();
 	Vertex u = G[sm.id];
-
-	if(u.vis) continue;
-	if(sm.dist > u.dist) continue;
+	//this checks if the Tuple is still useful, both checks should be equivalent
+	if(u.vis || sm.dist > u.dist) continue;
 	u.vis = true;
 	for(Edge e : u.adj) {
 	    Vertex v = e.t;
@@ -31,7 +28,7 @@ public static void dijkstra(Vertex[] G, int s) {
 		v.pre = u.id;
 		v.dist = u.dist + e.w;
 		Tuple nt = new Tuple(v.id, v.dist);
-		queue.add(nt);
+		q.add(nt);
 	    }
 	}
     }

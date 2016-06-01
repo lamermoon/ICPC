@@ -19,6 +19,7 @@ class MovieCollection {
 			int[] pos = new int[n + 1];
 			// mn ist tempraerer Fenwick Tree
 //START
+//note that 0 can not be used
 int[] fwktree = new int[m + n + 1];
 //END	
 			//
