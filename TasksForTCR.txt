@@ -1,29 +1,12 @@
 TCR - Aufgaben:
 
-Fehlende Kommentare:
--Levenshtein Distance (von Anton)
--Longest Common Subsequence (von Anton)
--Longest Increasing Subsequence
--Next Permuation
--Edmonds Karp
--Fenwick Tree
--Floyd-Warshall
+Einfach:
+-LIS in DP kommentieren
+-Was ist Bitonic TSP
+
+Schwer:
 -MinCut (ziemlich schlechter Code)
--Kruskal
-
-Update nötig:
--Dijkstra (Fehler mit der PQ muss behoben werden)
--Suurballe (hab ich ja jetzt auch geschrieben)
--Topologische Sortierung (mit Tiefensuche)
--Graham Scann (auch neu geschrieben)
-
-Fehlend:
--Johnsons Algorithmus (All-Pair-Shortest-Path für sparse graphs)
--Articulation Points in graphs
--Bridges in graphs
 -Knapsack, Subset-Sum (hab ich bestimmt noch irgendwo und würde man sicher auch so hinbekommen)
--Range Minimum Query (hab ich mal geschrieben, füge ich dann noch hinzu)
 -Order statistics (k'th smallest element in unsorted array)
--Union-Find (versteckt sich bis jetzt in Kruskal)
 -Mathe: Chinese remainder, phi-function, Wilsons theorem, gcd (ohne EEA)
 -Sonstiges: Tries, KD-Trees

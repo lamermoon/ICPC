@@ -1,2 +1,0 @@
-Mod negativer Zahlen:
-int mod = (((nums[j] % D) + D) % D);
