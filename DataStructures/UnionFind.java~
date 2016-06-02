@@ -1,5 +1,5 @@
 /* Union-Find
- ** \Theta(\alpha(n))
+ ** \alpha(n)
  * Union-Find is a data structure that keeps track of a set of elements partitioned into a number of disjoint subsets. $UnionFind$ creates $n$ disjoint sets each containing one element. $union$ joins the sets $x$ and $y$ are contained in. $find$ returns the representative of the set $x$ is contained in.\\
  * \emph{Input:} number of elements $n$, element $x$, element $y$\\
  * \emph{Output:} the representative of element $x$ or a boolean indicating whether sets got merged.

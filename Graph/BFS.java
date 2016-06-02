@@ -8,33 +8,28 @@
 
 //START
 public static boolean BFS(Vertex[] G, int s, int t) {
-
-    //make sure that all Vertices vis values are false etc
-    
-    Queue<Vertex> q = new LinkedList<Vertex>();
-    
-    G[s].vis = true;
-    G[s].dist = 0;
-    G[s].pre = -1;
-    q.add(G[s]);
-
-    //expand frontier between undiscovered and discovered vertices
-    while(!q.isEmpty()) {
-	Vertex u = q.poll();
-	//when reaching the goal, return true
-	//if we want to construct a BFS-tree delete this line
-	if(u.id = t) return true;
-	//else add adj vertices if not visited
-	for(Vertex v : u.adj) {
-	    if(!v.vis) {
-		v.vis = true;
-		v.dist = u.dist + 1;
-		v.pre = u.id;
-		q.add(v);
-	    }
+	//make sure that Vertices vis values are false etc
+	Queue<Vertex> q = new LinkedList<Vertex>();
+	G[s].vis = true;
+	G[s].dist = 0;
+	G[s].pre = -1;
+	q.add(G[s]);
+	//expand frontier between undiscovered and discovered vertices
+	while(!q.isEmpty()) {
+		Vertex u = q.poll();
+		//when reaching the goal, return true
+		//if we want to construct a BFS-tree delete this line
+		if(u.id = t) return true;
+		//else add adj vertices if not visited
+		for(Vertex v : u.adj) {
+			if(!v.vis) {
+				v.vis = true;
+				v.dist = u.dist + 1;
+				v.pre = u.id;
+				q.add(v);
+			}
+		}
 	}
-    }
-    //did not find target
-    return false;
-
+	//did not find target
+	return false;
 }

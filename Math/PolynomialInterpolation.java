@@ -18,7 +18,7 @@ public class interpol {
 		}
 		return res;
 	}
-	
+
 	// evaluates interpolating polynomial p at t for given 
 	// x-coordinates and divided differences
 	public static rat p(rat t, rat[] x, rat[] dD) {
@@ -30,7 +30,7 @@ public class interpol {
 		p = p.add(dD[0]);
 		return p;
 	}
-	
+//END
 	public static void main(String[] args) {
 	
 		rat[] test = {new rat(4,5), new rat(7,10), new rat(3,4)};
@@ -44,17 +44,15 @@ public class interpol {
 		rat[] dD = divDiff(x,y);
 		System.out.println("p("+7+") = "+p(new rat(7), x, dD));
 	}
-
-}
-//END
-
 //START
+}
+
 // implementation of rational numbers
 class rat {
 
 	public long c;
 	public long d;
-	
+
 	public rat (long c, long d) {
 		this.c = c;
 		this.d = d;
@@ -109,7 +107,7 @@ class rat {
 	public rat mult(rat b) {
 		return new rat(this.c*b.c, this.d*b.d);
 	}
-	
+
 	public rat div(rat b) {
 		return new rat(this.c*b.d, this.d*b.c);
 	}
@@ -123,6 +121,5 @@ class rat {
 	public rat sub(rat b) {
 		return this.add(new rat(-b.c, b.d));
 	}
-	
 }
 //END
