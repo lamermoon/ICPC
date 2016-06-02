@@ -1,6 +1,6 @@
 /* Breadth First Search
 ** |V| + |E|
-* Iterative BFS. Needs testing. Uses ref Vertex class, no Edge class needed. 
+* Iterative BFS. Uses ref Vertex class, no Edge class needed. 
 * In this version we look for a shortest path from s to t though we could also find the BFS-tree by leaving out t.
 * \emph{Input:} IDs of start and goal vertex and graph as AdjList
 * \emph{Output:} \texttt{true}  if there is a connection between $s$ and $g$, \texttt{false} otherwise
@@ -34,5 +34,7 @@ public static boolean BFS(Vertex[] G, int s, int t) {
 	    }
 	}
     }
+    //did not find target
+    return false;
 
 }

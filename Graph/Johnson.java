@@ -14,14 +14,16 @@ public static int[][] johnson(Vertex[] G) {
     }
     //init new vertex with zero-weight-edges to each vertex
     Vertex S = new Vertex(G.length);
-    for(int i = 0; i < G.length) {
+    for(int i = 0; i < G.length; i++) {
 	S.adj.add(new Edge(Gd[i], 0));
     }
-
+    Gd[G.length] = S;
+    
     //bellman-ford to check for neg-weight-cycles and to adapt edges to enable running dijkstra
-    if(!bellmanFord(G, s)) {
+    if(bellmanFord(Gd, s)) {
 	System.out.println("False");
-	return;
+	//this should not happen and will cause troubles
+	return null;
     }
     //change weights
     for(int i = 0; i < G.length; i++) {
@@ -37,11 +39,11 @@ public static int[][] johnson(Vertex[] G) {
     
     //create shortest path matrix
     int[][] apsp = new int[G.length][G.length];
-
+    
     //now use original graph G
     //start a dijkstra for each vertex
     for(int i = 0; i < G.length; i++) {
-	//reset weights, maybe we should put that in the dijkstra
+	//reset weights
 	for(int j = 0; j < G.length; j++) {
 	    G[j].vis = false;
 	    G[j].dist = Integer.MAX_VALUE;
@@ -53,3 +55,4 @@ public static int[][] johnson(Vertex[] G) {
     }
     return apsp;
 }
+//END

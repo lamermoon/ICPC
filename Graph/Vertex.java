@@ -28,7 +28,7 @@ class Vertex {
     ArrayList<Vertex> in = new ArrayList<Vertex>();
     ArrayList<Vertex> out = new ArrayList<Vertex>();
 
-    //for EdmondsKarp we need a HashMap to store Edges
+    //for EdmondsKarp we need a HashMap to store Edges, Integer is target
     HashMap<Integer, Edge> adj = new HashMap<Integer, Edge>();
 
     //for bipartite graph check

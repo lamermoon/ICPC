@@ -17,7 +17,7 @@ public static void DFS(Vertex[] G) {
 	if(!G[i].vis) {
 	    //note that we leave out t so this does not work with the below function
 	    //adaption will not be too difficult though
-	    //fix time
+	    //time should not always start at zero, change if needed
 	    recDFS(i, G, 0);
 	}
     }
