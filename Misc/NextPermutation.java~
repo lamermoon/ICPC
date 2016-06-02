@@ -1,5 +1,5 @@
 /* Next Permutation
- * n
+ ** n
  * Returns true if there is another permutation. Can also be used to compute the nextPermutation of an array.\\
  * \emph{Input:} String $a$ as char array\\
  * \emph{Output:} \texttt{true}, if there is a next permutation of $a$, \texttt{false} otherwise

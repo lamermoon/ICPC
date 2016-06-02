@@ -17,7 +17,7 @@ public static double bitonic(double[][] d) {
 					double r = B[k][i] + d[k][j];
 					if (min > r || k == 0)
 						min = r;
-					}
+				}
 				B[i][j] = min;
 			}
 		}

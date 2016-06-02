@@ -33,8 +33,8 @@ public static ArrayList<Integer> kmp(String s, String w) {
 	while (i<s.length()) {
 		while (j>=0 && s.charAt(i) != w.charAt(j))
 			j = N[j];
-		i++; j++;
-		if (j==w.length()) { //match found
+			i++; j++;
+			if (j==w.length()) { //match found
 			ret.add(i-w.length()); //add its start index
 			j = N[j];
 		}
