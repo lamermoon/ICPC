@@ -3,8 +3,8 @@ function trim(s)
 end
 
 -- parse a algorithm file
-function parseAlgorithm(dir, algorithm)
-    tex.print("\\begin{algo}")
+function parseAlgorithm(dir, algorithm, language)
+    tex.print("\\begin{" .. language .. "}")
 
     stateNum     = 0
     description = ""
@@ -46,15 +46,21 @@ function parseAlgorithm(dir, algorithm)
     local md5val = io.popen('cat ' .. dir .. "tmp_" .. algorithm
                             .. ' | tr -d [:space:] | md5sum | sed "s/\\s.\\+//"'):lines()
     tex.print("\\setAlgorithmHash{" .. md5val() .. "}")
-    tex.print("\\end{algo}")
+    tex.print("\\end{" .. language .. "}")
 end
 
 -- parse all the algorithms in that dir
 function parseDir(dir)
     tex.print("\\section{" .. string.sub(dir, 0, string.len(dir)-1) .. "}")
     -- for algorithm in io.popen('ls -a "'.. dir ..'"'):lines() do
-    for algorithm in io.popen('find "'.. dir ..'" \\( -name "*.java" -or -name "*.cc" -or -name "*.py" \\) -printf "%f\\n" | sort'):lines() do
-        parseAlgorithm(dir, algorithm)
+    for algorithm in io.popen('find "'.. dir ..'" \\( -name "*.java" \\) -printf "%f\\n" | sort'):lines() do
+        parseAlgorithm(dir, algorithm, "java")
+    end
+    for algorithm in io.popen('find "'.. dir ..'" \\( -name "*.cc" \\) -printf "%f\\n" | sort'):lines() do
+        parseAlgorithm(dir, algorithm, "cpp")
+    end
+    for algorithm in io.popen('find "'.. dir ..'" \\( -name "*.py" \\) -printf "%f\\n" | sort'):lines() do
+        parseAlgorithm(dir, algorithm, "python")
     end
 end
 

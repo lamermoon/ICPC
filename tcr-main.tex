@@ -47,7 +47,7 @@
 \lstset{numbers=left,
         captionpos=b,
         emptylines=*1,
-        language=Java,
+%        language=Java,
         numberstyle=\ttfamily\tiny,
         basicstyle=\ttfamily\footnotesize,
         identifierstyle=\color{black},
@@ -70,13 +70,14 @@
 \usepackage{multicol}
 \setlength{\parindent}{0pt}
 
-\newenvironment{algo}{%
+\newenvironment{java}{%
     % variables
     \def\algorithmName{\color{red}Title not set}%
     \def\algorithmDescription{\color{red}Description not set}%
     \def\algorithmFile{No File given}%
     \def\algorithmComplexity{?}%
     \def\algorithmHash{-}%
+    \def\algorithmLanguage{Java}%
     % setter
     \newcommand{\setAlgorithmName}[1]{\def\algorithmName{##1}}%
     \newcommand{\setAlgorithmDescription}[1]{\def\algorithmDescription{##1}}%
@@ -88,7 +89,51 @@
     \algorithmDescription%
     \lstinputlisting[title=
     {\footnotesize{\textbf{MD5:}\;\texttt{\algorithmHash}\;\mid\;%
-    $\mathcal{O}(\algorithmComplexity)$}}]{\algorithmFile}%
+    $\mathcal{O}(\algorithmComplexity)$}},language=Java]{\algorithmFile}%
+}%
+
+\newenvironment{cpp}{%
+    % variables
+    \def\algorithmName{\color{red}Title not set}%
+    \def\algorithmDescription{\color{red}Description not set}%
+    \def\algorithmFile{No File given}%
+    \def\algorithmComplexity{?}%
+    \def\algorithmHash{-}%
+    \def\algorithmLanguage{Java}%
+    % setter
+    \newcommand{\setAlgorithmName}[1]{\def\algorithmName{##1}}%
+    \newcommand{\setAlgorithmDescription}[1]{\def\algorithmDescription{##1}}%
+    \newcommand{\setAlgorithmFile}[1]{\def\algorithmFile{##1}}%
+    \newcommand{\setAlgorithmComplexity}[1]{\def\algorithmComplexity{##1}}%
+    \newcommand{\setAlgorithmHash}[1]{\def\algorithmHash{##1}}%
+}{%
+    \subsection{\algorithmName}%
+    \algorithmDescription%
+    \lstinputlisting[title=
+    {\footnotesize{\textbf{MD5:}\;\texttt{\algorithmHash}\;\mid\;%
+    $\mathcal{O}(\algorithmComplexity)$}},language=C++]{\algorithmFile}%
+}%
+
+\newenvironment{python}{%
+    % variables
+    \def\algorithmName{\color{red}Title not set}%
+    \def\algorithmDescription{\color{red}Description not set}%
+    \def\algorithmFile{No File given}%
+    \def\algorithmComplexity{?}%
+    \def\algorithmHash{-}%
+    \def\algorithmLanguage{Java}%
+    % setter
+    \newcommand{\setAlgorithmName}[1]{\def\algorithmName{##1}}%
+    \newcommand{\setAlgorithmDescription}[1]{\def\algorithmDescription{##1}}%
+    \newcommand{\setAlgorithmFile}[1]{\def\algorithmFile{##1}}%
+    \newcommand{\setAlgorithmComplexity}[1]{\def\algorithmComplexity{##1}}%
+    \newcommand{\setAlgorithmHash}[1]{\def\algorithmHash{##1}}%
+}{%
+    \subsection{\algorithmName}%
+    \algorithmDescription%
+    \lstinputlisting[title=
+    {\footnotesize{\textbf{MD5:}\;\texttt{\algorithmHash}\;\mid\;%
+    $\mathcal{O}(\algorithmComplexity)$}},language=Python]{\algorithmFile}%
 }%
 
 \title{Team Contest Reference}
