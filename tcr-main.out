@@ -59,7 +59,13 @@
 \BOOKMARK [3][-]{subsubsection.7.4.1}{Binet's\040formula}{subsection.7.4}% 59
 \BOOKMARK [3][-]{subsubsection.7.4.2}{Generalization}{subsection.7.4}% 60
 \BOOKMARK [3][-]{subsubsection.7.4.3}{Pisano\040Period}{subsection.7.4}% 61
-\BOOKMARK [1][-]{section.8}{Java\040Knowhow}{}% 62
-\BOOKMARK [2][-]{subsection.8.1}{System.out.printf\(\)\040und\040String.format\(\)}{section.8}% 63
-\BOOKMARK [2][-]{subsection.8.2}{Modulo:\040Avoiding\040negative\040Integers}{section.8}% 64
-\BOOKMARK [2][-]{subsection.8.3}{Speed\040up\040IO}{section.8}% 65
+\BOOKMARK [2][-]{subsection.7.5}{Reihen}{section.7}% 62
+\BOOKMARK [2][-]{subsection.7.6}{Binomialkoeffizienten}{section.7}% 63
+\BOOKMARK [2][-]{subsection.7.7}{Catalanzahlen}{section.7}% 64
+\BOOKMARK [2][-]{subsection.7.8}{Geometrie}{section.7}% 65
+\BOOKMARK [2][-]{subsection.7.9}{Zahlentheorie}{section.7}% 66
+\BOOKMARK [2][-]{subsection.7.10}{Faltung}{section.7}% 67
+\BOOKMARK [1][-]{section.8}{Java\040Knowhow}{}% 68
+\BOOKMARK [2][-]{subsection.8.1}{System.out.printf\(\)\040und\040String.format\(\)}{section.8}% 69
+\BOOKMARK [2][-]{subsection.8.2}{Modulo:\040Avoiding\040negative\040Integers}{section.8}% 70
+\BOOKMARK [2][-]{subsection.8.3}{Speed\040up\040IO}{section.8}% 71

@@ -222,6 +222,60 @@ $\pi(k)$ & 3 & 8 & 6 & 20 & 24 & 16 & 12 & 24 & 60 & 300 & $15 \cdot 10^{n-1}$ \
 \end{tabular}
 \end{table}
 
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+\subsection{Reihen}
+$
+\sum\limits_{i=1}^{n}i=\frac{n(n+1)}{2}, \sum\limits_{i=1}^{n}i^2=\frac{n(n+1)(2n+1)}{6}, \sum\limits_{i=1}^{n}i^3=\frac{n^2(n+1)^2}{4}
+$\\
+$
+\sum\limits_{i=0}^{n}c^i=\frac{c^{n+1}-1}{c-1},c\neq 1, \sum\limits_{i=0}^{\infty}c^i=\frac{1}{1-c}, \sum\limits_{i=1}^{n}c^i=\frac{c}{1-c},|c|<1
+$\\
+$
+\sum\limits_{i=0}^{n}ic^i=\frac{nc^{n+2}-(n+1)c^{n+1}+c}{(c-1)^2}, c\neq 1, \sum\limits_{i=0}^{\infty}ic^i=\frac{c}{(1-c)^2}, |c|<1
+$
+
+\subsection{Binomialkoeffizienten}
+
+
+\subsection{Catalanzahlen}
+$
+C_n=\frac{1}{n+1}\binom{2n}{n}=\frac{(2n)!}{(n+1)!n!}
+$\\
+$
+C_0=1, C_{n+1}=\sum\limits_{k=0}^{n}C_kC_{n-k}, C_{n+1}=\frac{4n+2}{n+2}C_n
+$
+
+\subsection{Geometrie}
+\textbf{Polygonfläche:} $A=\frac{1}{2}(x_1y_2-x_2y_1+x_2y_3-x_3y_2+\dots+x_{n-1}y_n-x_ny_{n-1}+x_ny_1-x_1y_n)$
+
+
+\subsection{Zahlentheorie}
+\textbf{Chinese Remainder Theorem:} Es existiert eine Zahl $C$, sodass:\\
+$
+C\equiv a_1\mod n_1,\cdots, C\equiv a_k\mod n_k, \mathrm{ggt}(n_i,n_j)=1,i\neq j
+$\\
+Fall $k=2$: $m_1n_1+m_2n_2=1$ mit EEA finden.\\
+Lösung ist $x=a_1m_2n_2+a_2m_1n_1$.\\
+Allgemeiner Fall: iterative Anwendung von $k=2$
+
+\textbf{Eulersche $\varphi$-Funktion:} $\varphi(n)=n\prod_{p|n}(1-\frac{1}{p}),p$ prim\\
+$\varphi(p)=p-1,\varphi(pq)=\varphi(p)\varphi(q)$, $p,q$ prim\\
+$\varphi(p^k)=p^k-p^{k-1},p,q$ prim, $k\geq 1$
+
+\textbf{Eulers Theorem:} $a^{\varphi(n)}\equiv 1\mod n$
+
+\textbf{Fermats Theorem:} $a^{p}\equiv a\mod p, p$ prim
+
+\subsection{Faltung}
+$
+(f\ast g)(n) = \sum\limits_{m=-\infty}^{\infty}f(m)g(n-m)=\sum\limits_{m=-\infty}^{\infty}f(n-m)g(m)
+$
+
+
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+
 
 \section{Java Knowhow}
 \subsection{System.out.printf() und String.format()}
@@ -264,6 +318,6 @@ Double.parseDouble(Scanner.next());
 \end{multicols}
 
 
-\includepdf[pages=-,clip,trim=5mm 17mm 0mm 17mm,scale=0.95,pagecommand={\pagestyle{plain}}]{tcs-cheat-sheet.pdf}
+%\includepdf[pages=-,clip,trim=5mm 17mm 0mm 17mm,scale=0.95,pagecommand={\pagestyle{plain}}]{tcs-cheat-sheet.pdf}
 
 \end{document}
