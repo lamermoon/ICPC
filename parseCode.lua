@@ -53,7 +53,7 @@ end
 function parseDir(dir)
     tex.print("\\section{" .. string.sub(dir, 0, string.len(dir)-1) .. "}")
     -- for algorithm in io.popen('ls -a "'.. dir ..'"'):lines() do
-    for algorithm in io.popen('find "'.. dir ..'" \\( -name "*.java" -or -name "*.cc" \\) -printf "%f\\n" | sort'):lines() do
+    for algorithm in io.popen('find "'.. dir ..'" \\( -name "*.java" -or -name "*.cc" -or -name "*.py" \\) -printf "%f\\n" | sort'):lines() do
         parseAlgorithm(dir, algorithm)
     end
 end
