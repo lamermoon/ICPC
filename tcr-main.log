@@ -1,4 +1,4 @@
-This is LuaTeX, Version beta-0.76.0-2013121407 (rev 4627)  (format=lualatex 2014.8.18)  10 NOV 2016 20:23
+This is LuaTeX, Version beta-0.76.0-2013121407 (rev 4627)  (format=lualatex 2014.8.18)  13 NOV 2016 17:46
  \write18 enabled.
 **tcr-main.tex
 (./tcr-main.tex
@@ -519,9 +519,9 @@ Language: english 2012/08/20 v3.3p English support from the babel system
 luaotfload | load : auto-selecting default features for script: dflt(load luc: /
 home/thore/.texmf-var/luatex-cache/generic/fonts/otf/texgyretermes-regular.luc)
 luaotfload | load : auto-selecting default features for script: dflt
-luaotfload: font no 22 (TeXGyreTermes-Regular) defines feature c2sc for script l
+luaotfload: font no 22 (TeXGyreTermes-Regular) defines feature ss01 for script l
 atn
-luaotfload: font no 22 (TeXGyreTermes-Regular) defines feature c2sc for script l
+luaotfload: font no 22 (TeXGyreTermes-Regular) defines feature ss01 for script l
 atn
 \g_fontspec_family_TeX Gyre Termes_int=\count319
 luaotfload | load : auto-selecting default features for script: dflt
@@ -592,9 +592,9 @@ luaotfload | load : no defaults for script "latn", falling back to "dflt"
 luaotfload | load : auto-selecting default features for script: dflt(load luc: /
 home/thore/.texmf-var/luatex-cache/generic/fonts/otf/sourcecodepro-regular.luc)
 luaotfload | load : auto-selecting default features for script: dflt
-luaotfload: font no 27 (SourceCodePro-Regular) defines feature ss03 for script l
+luaotfload: font no 27 (SourceCodePro-Regular) defines feature ss01 for script l
 atn
-luaotfload: font no 27 (SourceCodePro-Regular) defines feature ss03 for script l
+luaotfload: font no 27 (SourceCodePro-Regular) defines feature ss01 for script l
 atn
 \g_fontspec_family_Source Code Pro_int=\count320
 luaotfload | load : auto-selecting default features for script: dflt
@@ -1207,7 +1207,7 @@ Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             install/macros/latex/contrib/pageslts.tds.zip
 (lastpage)             ! on input line 142.
 \c@lstlisting=\count381
-<img/logo_uzl.pdf, id=293, 284.52798pt x 113.8112pt>
+<img/logo_uzl.pdf, id=297, 284.52798pt x 113.8112pt>
 File: img/logo_uzl.pdf Graphic file (type pdf)
  <use img/logo_uzl.pdf>
 Package pdftex.def Info: img/logo_uzl.pdf used on input line 146.
@@ -1290,7 +1290,7 @@ luaotfload | load : no defaults for script "latn", falling back to "dflt"
 luaotfload | load : auto-selecting default features for script: latn
 luaotfload | load : no defaults for script "latn", falling back to "dflt"
 luaotfload | load : auto-selecting default features for script: latn
-luaotfload | load : no defaults for script "latn", falling back to "dflt")
+luaotfload | load : no defaults for script "latn", falling back to "dflt" [2])
 luaotfload | load : auto-selecting default features for script: latn
 luaotfload | load : no defaults for script "latn", falling back to "dflt"
 luaotfload | load : auto-selecting default features for script: latn
@@ -1306,11 +1306,11 @@ luaotfload | load : auto-selecting default features for script: dflt
 luaotfload | load : auto-selecting default features for script: dflt
 luaotfload | load : auto-selecting default features for script: dflt
 luaotfload | load : auto-selecting default features for script: dflt
-luaotfload | load : auto-selecting default features for script: dflt [2]
+luaotfload | load : auto-selecting default features for script: dflt
 (./DP/tmp_LongestIncreasingSubsequenceFast.java)
 (./DataStructures/tmp_FenwickTree.java)
-(./DataStructures/tmp_RangeMaxQuery.java) [3]
-(./DataStructures/tmp_UnionFind.java)
+(./DataStructures/tmp_RangeMaxQuery.java) (./DataStructures/tmp_Trie.java
+[3]) (./DataStructures/tmp_UnionFind.java)
 (/home/thore/texmf/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
@@ -1320,7 +1320,7 @@ File: lstlang1.sty 2015/06/04 1.6 listings language file
 (/home/thore/texmf/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
 )
-(./DataStructures/tmp_suffix_array.cc
+(./DataStructures/tmp_suffix_array.cc [4]
 LaTeX Font Info:    Try loading font information for EU2+lmtt on input line 61.
 
 (/usr/share/texlive/texmf-dist/tex/latex/euenc/eu2lmtt.fd
@@ -1328,30 +1328,31 @@ File: eu2lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 luaotfload | load : auto-selecting default features for script: latn
 luaotfload | load : no defaults for script "latn", falling back to "dflt"(load l
-uc: /home/thore/.texmf-var/luatex-cache/generic/fonts/otf/lmmono8-regular.luc) 
-[4])
-(./Graph/tmp_2SAT.java) (./Graph/tmp_BFS.java) (./Graph/tmp_BellmanFord.java)
-(./Graph/tmp_BipartiteGraphCheck.java [5]) (./Graph/tmp_BipartitesMatching.java
-) (./Graph/tmp_BitonicTSP.java) (./Graph/tmp_DAGSSP.java) [6]
-(./Graph/tmp_Dijkstra.java) (./Graph/tmp_EdKarp.java) (./Graph/tmp_Edge.java)
-(./Graph/tmp_FloydWarshall.java [7]) (./Graph/tmp_HeldKarpTSP.java)
-(./Graph/tmp_ItDFS.java) (./Graph/tmp_Johnson.java [8])
-(./Graph/tmp_Kruskal.java) (./Graph/tmp_MinCut.java) (./Graph/tmp_Prim.java)
-(./Graph/tmp_RecDFS.java [9]) (./Graph/tmp_StronglyConnectedComponents.java)
-(./Graph/tmp_Suurballe.java [10]) (./Graph/tmp_TSKahn.java)
-(./Graph/tmp_TopologicalSort.java) (./Graph/tmp_Tuple.java)
-(./Graph/tmp_Vertex.java [11]) (./Math/tmp_BinomialCoefficient.java)
-(./Math/tmp_BinomialMatrix.java) (./Math/tmp_Divisability.java)
-(./Math/tmp_GrahamScan.java [12]) (./Math/tmp_IterativeEEA.java)
-(./Math/tmp_PolynomialInterpolation.java [13]) (./Math/tmp_RootofPerm.java
-[14]) (./Math/tmp_SieveOfEratosthenes.java) (./Math/tmp_gcd.java)
-(./Math/tmp_lcm.java) (./Misc/tmp_BinarySearch.java) [15]
+uc: /home/thore/.texmf-var/luatex-cache/generic/fonts/otf/lmmono8-regular.luc))
+
+(./Graph/tmp_2SAT.java) (./Graph/tmp_BFS.java) (./Graph/tmp_BellmanFord.java
+[5]) (./Graph/tmp_BipartiteGraphCheck.java)
+(./Graph/tmp_BipartitesMatching.java) (./Graph/tmp_BitonicTSP.java [6])
+(./Graph/tmp_DAGSSP.java) (./Graph/tmp_Dijkstra.java) (./Graph/tmp_EdKarp.java)
+[7] (./Graph/tmp_Edge.java) (./Graph/tmp_FloydWarshall.java)
+(./Graph/tmp_HeldKarpTSP.java) [8] (./Graph/tmp_ItDFS.java)
+(./Graph/tmp_Johnson.java) (./Graph/tmp_Kruskal.java) (./Graph/tmp_MinCut.java)
+(./Graph/tmp_Prim.java [9]) (./Graph/tmp_RecDFS.java)
+(./Graph/tmp_StronglyConnectedComponents.java) (./Graph/tmp_Suurballe.java
+[10]) (./Graph/tmp_TSKahn.java) (./Graph/tmp_TopologicalSort.java) [11]
+(./Graph/tmp_Tuple.java) (./Graph/tmp_Vertex.java)
+(./Math/tmp_BinomialCoefficient.java) (./Math/tmp_BinomialMatrix.java)
+(./Math/tmp_Divisability.java) [12] (./Math/tmp_GrahamScan.java)
+(./Math/tmp_IterativeEEA.java [13]) (./Math/tmp_PolynomialInterpolation.java)
+[14] (./Math/tmp_RootofPerm.java) (./Math/tmp_SieveOfEratosthenes.java)
+(./Math/tmp_gcd.java) [15] (./Math/tmp_lcm.java) (./Misc/tmp_BinarySearch.java)
 (./Misc/tmp_NextNumber.java) (./Misc/tmp_NextPermutation.java)
-(./String/tmp_KnuthMorrisPratt.java) (./String/tmp_LevenshteinDistance.java)
-[16] (./String/tmp_LongestCommonSubsequence.java)
+(./String/tmp_KnuthMorrisPratt.java [16])
+(./String/tmp_LevenshteinDistance.java)
+(./String/tmp_LongestCommonSubsequence.java)
 (./String/tmp_LongestCommonSubstring.java)
 luaotfload | load : auto-selecting default features for script: latn
-luaotfload | load : no defaults for script "latn", falling back to "dflt"
+luaotfload | load : no defaults for script "latn", falling back to "dflt" [17]
 
 Package multicol Warning: Floats and marginpars not allowed inside `multicols' e
 nvironment!.
@@ -1374,7 +1375,7 @@ r-mu-ta-tions with-out fixed points)\EU2/TeXGyreTermes(0)/m/n/10 : $\OT1/cmr/m/
 n/10 !\OML/cmm/m/it/10 n \OT1/cmr/m/n/10 =
  []
 
-[17]
+
 Overfull \hbox (49.65205pt too wide) in paragraph at lines 261--268
 [][][] 
  []
@@ -1387,29 +1388,29 @@ nvironment!.
 Package multicol Warning: Floats and marginpars not allowed inside `multicols' e
 nvironment!.
 
-
+[18] 
 AED: lastpage setting LastPage
-[18]
+[19]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 368.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 368.
  (./tcr-main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 368.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 368.
 Package rerunfilecheck Info: File `tcr-main.out' has not changed.
-(rerunfilecheck)             Checksum: E56D9BB926A2148399A1018483CC3FD8;4915.
+(rerunfilecheck)             Checksum: 2D5E071337A8673F57EB034141F8C2AB;4969.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 368.
  )
 
 Here is how much of LuaTeX's memory you used:
- 29942 strings out of 493803
- 596147,662416 words of node,token memory allocated
+ 30011 strings out of 493803
+ 596184,662416 words of node,token memory allocated
  6205 words of node memory still in use:
    77 hlist, 8 vlist, 81 rule, 20 math, 443 glue, 9 kern, 2 penalty, 96 glyph, 2
 96 attribute, 308 glue_spec, 223 attribute_list, 2 write, 2 local_par, 4 pdf_col
 orstack nodes
-   avail lists: 1:2,2:22771,3:877,4:23985,5:9620,6:6004,7:22179,8:134,9:20969,10
-:1492
- 30582 multiletter control sequences out of 65536+600000
+   avail lists: 1:2,2:24266,3:447,4:24658,5:9795,6:3344,7:22816,8:128,9:21315,10
+:1529
+ 30591 multiletter control sequences out of 65536+600000
  80 fonts using 7703519 bytes
  48i,12n,63p,376b,1531s stack positions out of 5000i,500n,10000p,200000b,100000s
 </usr/share/texmf/fonts/opentype/public/lm/lmmono8-regular.otf></home/thore/texm
@@ -1433,10 +1434,10 @@ ts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 sy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></
 usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb>
-Output written on tcr-main.pdf (18 pages, 397427 bytes).
+Output written on tcr-main.pdf (19 pages, 400971 bytes).
 
-PDF statistics: 2162 PDF objects out of 2487 (max. 8388607)
- 2084 compressed objects within 21 object streams
- 1585 named destinations out of 1728 (max. 131072)
- 583 words of extra memory for PDF output out of 10000 (max. 10000000)
+PDF statistics: 2222 PDF objects out of 2487 (max. 8388607)
+ 2142 compressed objects within 22 object streams
+ 1633 named destinations out of 1728 (max. 131072)
+ 591 words of extra memory for PDF output out of 10000 (max. 10000000)
 
