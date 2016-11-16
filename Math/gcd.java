@@ -1,8 +1,8 @@
-/* Greatest Common Devisor
+/* Greatest Common Divisor
  ** \log a + \log b
  * Calculates the gcd of two numbers $a$ and $b$ or of an array of numbers $input$.\\
  * \emph{Input:} Numbers $a$ and $b$ or array of numbers $input$\\
- * \emph{Output:} Greatest common devisor of the input
+ * \emph{Output:} Greatest common divisor of the input
  */
 //START
 private static long gcd(long a, long b) {

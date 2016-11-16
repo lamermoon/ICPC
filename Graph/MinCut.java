@@ -4,6 +4,7 @@
 
 //this is a different bfs than the other used in edkarp in the sense that it will
 //not stop when finding the target, actually this will never happen anyway
+//START
 public static void bfs(Vertex[] G, int s) {
     for(int i = 0; i < G.length; i++) {
 	G[i].vis = false;
@@ -44,3 +45,4 @@ public static int minCut(Vertex[] G, int s, int t) {
     }
     return sum;
 }
+//END

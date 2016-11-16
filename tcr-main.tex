@@ -193,7 +193,11 @@
 % \newpage
 % \end{multicols}
 
-\section{Math Roland}
+\section{Math}
+\subsection{Tree}
+Diameter: BFS from any node, then BFS from last visited node.
+Max dist is then the diameter.
+Center: Middle vertex in second step from above.
 \subsection{Divisability Explanation}
 $D \mid M \Leftrightarrow D \mid {\tt digit\_sum(M, k, alt)}$, refer to table for values of $D, k, alt$.
 \begin{table}[htbp]
@@ -281,7 +285,12 @@ $
 $
 
 \subsection{Binomialkoeffizienten}
-
+$
+{n \choose k} = {n-1 \choose k} + {n-1 \choose k-1}
+$,
+$
+{n \choose m}{m \choose k} = {n \choose k}{n-k \choose m-k}
+$
 
 \subsection{Catalanzahlen}
 $
@@ -361,7 +370,6 @@ Use
 Double.parseDouble(Scanner.next());
 \end{lstlisting}
 \end{multicols}
-
 
 %\includepdf[pages=-,clip,trim=5mm 17mm 0mm 17mm,scale=0.95,pagecommand={\pagestyle{plain}}]{tcs-cheat-sheet.pdf}
 

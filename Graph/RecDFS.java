@@ -28,6 +28,9 @@ public static boolean recDFS(int s, int t, Vertex[] G, int time){
 	G[s].dtime = time;
 
 	G[s].vis = true; //new vertex has been discovered
+	//For cycle check vis should be int and 0 are not vis nodes
+	//1 are vis nodes which havent been finished and 2 are finished nodes
+	//cycle exists iff edge to node with vis=1
 	//when reaching the target return true
 	//not necessary when calculating the DFS-tree
 	if(s == t) return true;

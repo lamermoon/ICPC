@@ -1,0 +1,8 @@
+/* comparator in C++
+ */
+
+bool myfunction (int i, int j) {return (i<j); }
+
+int main() {
+    sort(vec.begin(), vec.end(), myfunction);
+}
