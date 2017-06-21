@@ -1,4 +1,4 @@
-This is LuaTeX, Version 0.95.0 (TeX Live 2016/Arch Linux)  (format=lualatex 2017.6.21)  21 JUN 2017 12:18
+This is LuaTeX, Version 0.95.0 (TeX Live 2016/Arch Linux)  (format=lualatex 2017.6.21)  21 JUN 2017 12:23
  system commands enabled.
 **tcr-main.tex
 (./tcr-main.tex
@@ -6,10 +6,9 @@ LaTeX2e <2017/01/01> patch level 3
 Lua module: luaotfload-main 2017/01/29 2.80001 OpenType layout system.
 Lua module: lualibs 2017-02-01 2.5 ConTeXt Lua standard libraries.
 Lua module: lualibs-extended 2017-02-01 2.5 ConTeXt Lua libraries -- extended co
-llection.(created cache path: /home/marcel/.texlive/texmf-var)(using write cache
-: /home/marcel/.texlive/texmf-var/luatex-cache/generic)(using read cache: /var/l
-ib/texmf/luatex-cache/generic /home/marcel/.texlive/texmf-var/luatex-cache/gener
-ic)
+llection.(using write cache: /home/marcel/.texlive/texmf-var/luatex-cache/generi
+c)(using read cache: /var/lib/texmf/luatex-cache/generic /home/marcel/.texlive/t
+exmf-var/luatex-cache/generic)
 luaotfload | conf : Root cache directory is /home/marcel/.texlive/texmf-var/luat
 ex-cache/generic/names.
 luaotfload | init : Loading fontloader “fontloader-2017-02-11.lua” from kpse
@@ -35,17 +34,15 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.132 seconds
+luaotfload | main : initialization completed in 0.098 seconds
 Babel <3.9r> and hyphenation patterns for 1 language(s) loaded.
 (/usr/share/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
 (/usr/share/texmf-dist/tex/latex/base/size10.clo
 File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
-luaotfload | db : Font names database not found, generating new one.
-luaotfload | db : This can take several minutes; please be patient.(save: /home/
-marcel/.texlive/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-regular.lua)(
-save: /home/marcel/.texlive/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-r
-egular.luc))
+luaotfload | db : Font names database loaded from /home/marcel/.texlive/texmf-va
+r/luatex-cache/generic/names/luaotfload-names.luc(load luc: /home/marcel/.texliv
+e/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-regular.luc))
 \c@part=\count79
 \c@section=\count80
 \c@subsection=\count81
@@ -274,11 +271,9 @@ LaTeX Info: Redefining \scshape on input line 3420.
 LaTeX Info: Redefining \upshape on input line 3425.
 LaTeX Info: Redefining \em on input line 3455.
 LaTeX Info: Redefining \emph on input line 3480.
-(save: /home/marcel/.texlive/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-
-bold.lua)(save: /home/marcel/.texlive/texmf-var/luatex-cache/generic/fonts/otl/l
-mroman10-bold.luc)(save: /home/marcel/.texlive/texmf-var/luatex-cache/generic/fo
-nts/otl/lmroman10-italic.lua)(save: /home/marcel/.texlive/texmf-var/luatex-cache
-/generic/fonts/otl/lmroman10-italic.luc)
+(load luc: /home/marcel/.texlive/texmf-var/luatex-cache/generic/fonts/otl/lmroma
+n10-bold.luc)(load luc: /home/marcel/.texlive/texmf-var/luatex-cache/generic/fon
+ts/otl/lmroman10-italic.luc)
 LaTeX Info: Redefining \- on input line 3531.
 )) (/usr/share/texmf-dist/tex/generic/babel/babel.sty
 Package: babel 2016/04/23 3.9r The Babel package
@@ -390,18 +385,15 @@ Language: english 2017/01/24 v3.3q English support from the babel system
 \l@canadian = a dialect from \language\l@american 
 \l@australian = a dialect from \language\l@british 
 \l@newzealand = a dialect from \language\l@british 
-))(save: /home/marcel/.texlive/texmf-var/luatex-cache/generic/fonts/otl/texgyret
-ermes-regular.lua)(save: /home/marcel/.texlive/texmf-var/luatex-cache/generic/fo
-nts/otl/texgyretermes-regular.luc)
+))
+luaotfload | cache : Lookup cache loaded from /home/marcel/.texlive/texmf-var/lu
+atex-cache/generic/names/luaotfload-lookup-cache.luc.(load luc: /home/marcel/.te
+xlive/texmf-var/luatex-cache/generic/fonts/otl/texgyretermes-regular.luc)
 \g__fontspec_family_TeXGyreTermes_int=\count138
-(save: /home/marcel/.texlive/texmf-var/luatex-cache/generic/fonts/otl/texgyreter
-mes-bolditalic.lua)(save: /home/marcel/.texlive/texmf-var/luatex-cache/generic/f
-onts/otl/texgyretermes-bolditalic.luc)(save: /home/marcel/.texlive/texmf-var/lua
-tex-cache/generic/fonts/otl/texgyretermes-bold.lua)(save: /home/marcel/.texlive/
-texmf-var/luatex-cache/generic/fonts/otl/texgyretermes-bold.luc)(save: /home/mar
-cel/.texlive/texmf-var/luatex-cache/generic/fonts/otl/texgyretermes-italic.lua)(
-save: /home/marcel/.texlive/texmf-var/luatex-cache/generic/fonts/otl/texgyreterm
-es-italic.luc)
+(load luc: /home/marcel/.texlive/texmf-var/luatex-cache/generic/fonts/otl/texgyr
+etermes-bolditalic.luc)(load luc: /home/marcel/.texlive/texmf-var/luatex-cache/g
+eneric/fonts/otl/texgyretermes-bold.luc)(load luc: /home/marcel/.texlive/texmf-v
+ar/luatex-cache/generic/fonts/otl/texgyretermes-italic.luc)
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -428,27 +420,13 @@ es-italic.luc)
 . <->"TeXGyreTermes/BI:mode=node;script=latn;language=DFLT;+tlig;+smcp;"
 .................................................
 LaTeX Info: Redefining \rmfamily on input line 14.
-(save: /home/marcel/.texlive/texmf-var/luatex-cache/generic/fonts/svg/sourcecode
-pro-regular.lua)(save: /home/marcel/.texlive/texmf-var/luatex-cache/generic/font
-s/svg/sourcecodepro-regular.luc)(save: /home/marcel/.texlive/texmf-var/luatex-ca
-che/generic/fonts/otl/sourcecodepro-regular.lua)(save: /home/marcel/.texlive/tex
-mf-var/luatex-cache/generic/fonts/otl/sourcecodepro-regular.luc)
+(load luc: /home/marcel/.texlive/texmf-var/luatex-cache/generic/fonts/otl/source
+codepro-regular.luc)
 \g__fontspec_family_SourceCodePro_int=\count139
-(save: /home/marcel/.texlive/texmf-var/luatex-cache/generic/fonts/svg/sourcecode
-pro-boldit.lua)(save: /home/marcel/.texlive/texmf-var/luatex-cache/generic/fonts
-/svg/sourcecodepro-boldit.luc)(save: /home/marcel/.texlive/texmf-var/luatex-cach
-e/generic/fonts/otl/sourcecodepro-boldit.lua)(save: /home/marcel/.texlive/texmf-
-var/luatex-cache/generic/fonts/otl/sourcecodepro-boldit.luc)(save: /home/marcel/
-.texlive/texmf-var/luatex-cache/generic/fonts/svg/sourcecodepro-bold.lua)(save: 
-/home/marcel/.texlive/texmf-var/luatex-cache/generic/fonts/svg/sourcecodepro-bol
-d.luc)(save: /home/marcel/.texlive/texmf-var/luatex-cache/generic/fonts/otl/sour
-cecodepro-bold.lua)(save: /home/marcel/.texlive/texmf-var/luatex-cache/generic/f
-onts/otl/sourcecodepro-bold.luc)(save: /home/marcel/.texlive/texmf-var/luatex-ca
-che/generic/fonts/svg/sourcecodepro-regularit.lua)(save: /home/marcel/.texlive/t
-exmf-var/luatex-cache/generic/fonts/svg/sourcecodepro-regularit.luc)(save: /home
-/marcel/.texlive/texmf-var/luatex-cache/generic/fonts/otl/sourcecodepro-regulari
-t.lua)(save: /home/marcel/.texlive/texmf-var/luatex-cache/generic/fonts/otl/sour
-cecodepro-regularit.luc)
+(load luc: /home/marcel/.texlive/texmf-var/luatex-cache/generic/fonts/otl/source
+codepro-boldit.luc)(load luc: /home/marcel/.texlive/texmf-var/luatex-cache/gener
+ic/fonts/otl/sourcecodepro-bold.luc)(load luc: /home/marcel/.texlive/texmf-var/l
+uatex-cache/generic/fonts/otl/sourcecodepro-regularit.luc)
 luaotfload | aux : font no 24 (nil) does not define feature smcp for script latn
  with language dflt
 luaotfload | aux : no font with id 24
@@ -500,7 +478,6 @@ luaotfload | aux : no font with id 25
 . \hyphenchar \font =\c_minus_one 
 .................................................
 LaTeX Info: Redefining \ttfamily on input line 15.
-
 (/usr/share/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2017/03/14 v6.85a Hypertext links for LaTeX
 
@@ -1099,7 +1076,7 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
 \c@lstlisting=\count267
 
-<img/logo_uzl.pdf, id=349, 284.52798pt x 113.8112pt>
+<img/logo_uzl.pdf, id=357, 284.52798pt x 113.8112pt>
 File: img/logo_uzl.pdf Graphic file (type pdf)
  <use img/logo_uzl.pdf>
 Package luatex.def Info: img/logo_uzl.pdf used on input line 146.
@@ -1128,15 +1105,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 178--183
  []
 
 
+Overfull \vbox (57.45604pt too high) has occurred while \output is active []
+
+
+[2]
 Underfull \hbox (badness 10000) in paragraph at lines 185--186
 
  []
 
-
-Overfull \vbox (29.13622pt too high) has occurred while \output is active []
-
-
-[2] (/usr/share/texmf-dist/tex/latex/listings/lstlang1.sty
+(/usr/share/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
 (./DP/tmp_LongestIncreasingSubsequenceEasy.java)
@@ -1153,19 +1130,18 @@ File: lstlang1.sty 2015/06/04 1.6 listings language file
 (/usr/share/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
 )
-(./DataStructures/tmp_suffix_array.cc(save: /home/marcel/.texlive/texmf-var/luat
-ex-cache/generic/fonts/otl/lmmono8-regular.lua)(save: /home/marcel/.texlive/texm
-f-var/luatex-cache/generic/fonts/otl/lmmono8-regular.luc))
-(./Graph/tmp_2SAT.java) (./Graph/tmp_BFS.java [5])
-(./Graph/tmp_BellmanFord.java) (./Graph/tmp_BipartiteGraphCheck.java)
-(./Graph/tmp_BipartitesMatching.java [6]) (./Graph/tmp_BitonicTSP.java)
-(./Graph/tmp_DAGSSP.java) (./Graph/tmp_Dijkstra.java) (./Graph/tmp_EdKarp.java
-[7]) (./Graph/tmp_Edge.java) (./Graph/tmp_FloydWarshall.java)
+(./DataStructures/tmp_suffix_array.cc(load luc: /home/marcel/.texlive/texmf-var/
+luatex-cache/generic/fonts/otl/lmmono8-regular.luc)) (./Graph/tmp_2SAT.java)
+(./Graph/tmp_BFS.java [5]) (./Graph/tmp_BellmanFord.java)
+(./Graph/tmp_BipartiteGraphCheck.java) (./Graph/tmp_BipartitesMatching.java
+[6]) (./Graph/tmp_BitonicTSP.java) (./Graph/tmp_DAGSSP.java)
+(./Graph/tmp_Dijkstra.java) (./Graph/tmp_EdKarp.java [7])
+(./Graph/tmp_Edge.java) (./Graph/tmp_FloydWarshall.java)
 (./Graph/tmp_HeldKarpTSP.java [8]) (./Graph/tmp_ItDFS.java)
-(./Graph/tmp_Johnson.java) (./Graph/tmp_Kruskal.java) [9]
+(./Graph/tmp_Johnson.java) (./Graph/tmp_Kruskal.java [9])
 (./Graph/tmp_MinCut.java) (./Graph/tmp_Prim.java) (./Graph/tmp_RecDFS.java
 [10]) (./Graph/tmp_StronglyConnectedComponents.java)
-(./Graph/tmp_Suurballe.java) [11] (./Graph/tmp_TSKahn.java)
+(./Graph/tmp_Suurballe.java [11]) (./Graph/tmp_TSKahn.java)
 (./Graph/tmp_TopologicalSort.java) (./Graph/tmp_Tuple.java)
 (./Graph/tmp_Vertex.java [12]) (./Graph/tmp_dijkstra.cc)
 (./Graph/tmp_maxflow.cc) (./Math/tmp_BinomialCoefficient.java [13])
@@ -1184,8 +1160,8 @@ File: lstlang1.sty 2015/06/04 1.6 listings language file
 (./Misc/tmp_comp.cc [21]) (./Misc/tmp_hash.cc) (./Misc/tmp_mos_alg.cc) [22]
 (./Misc/tmp_ternary_search.cc) (./String/tmp_KnuthMorrisPratt.java)
 (./String/tmp_LevenshteinDistance.java)
-(./String/tmp_LongestCommonSubsequence.java)
-(./String/tmp_LongestCommonSubstring.java [23])
+(./String/tmp_LongestCommonSubsequence.java [23])
+(./String/tmp_LongestCommonSubstring.java)
 
 Package multicol Warning: Floats and marginpars not allowed inside `multicols' e
 nvironment!.
@@ -1206,7 +1182,7 @@ Underfull \hbox (badness 6461) in paragraph at lines 235--236
 !\OML/cmm/m/it/10 n \OT1/cmr/m/n/10 =
  []
 
-
+[24]
 Overfull \hbox (49.65205pt too wide) in paragraph at lines 265--272
 [][] 
  []
@@ -1225,7 +1201,7 @@ $[] \OT1/cmr/m/n/10 = [] + []$\TU/TeXGyreTermes(0)/m/n/10 , $[][] \OT1/cmr/m/n/
 10 = [][]$\TU/TeXGyreTermes(0)/m/n/10 ,
  []
 
-[24] 
+
 AED: lastpage setting LastPage
 [25]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 382.
@@ -1233,30 +1209,23 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 382.
  (./tcr-main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 382.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 382.
-
-
-Package rerunfilecheck Warning: File `tcr-main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `tcr-main.out':
-(rerunfilecheck)             Before: 3824BFE1E2CF6F48FB92D6F2BA1E6E2A;5813
-(rerunfilecheck)             After:  18CC0C6A552C905353484A0D04B3797F;6014.
+Package rerunfilecheck Info: File `tcr-main.out' has not changed.
+(rerunfilecheck)             Checksum: ED1EC3F4E92FBCE5707C7A6480E9A5A8;5961.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 382.
 )
 
 Here is how much of LuaTeX's memory you used:
- 28058 strings out of 494577
- 745253,662416 words of node,token memory allocated
+ 28109 strings out of 494577
+ 745252,662416 words of node,token memory allocated
  13567 words of node memory still in use:
    78 hlist, 8 vlist, 81 rule, 2 local_par, 20 math, 1323 glue, 8 kern, 2 penalt
 y, 96 glyph, 441 attribute, 52 glue_spec, 441 attribute_list, 2 write, 4 pdf_col
 orstack nodes
-   avail lists: 2:13571,3:540,4:10377,5:9254,6:3794,7:33336,8:7629,9:20046,10:41
-,11:1395
- 28232 multiletter control sequences out of 65536+600000
+   avail lists: 1:3,2:13905,3:805,4:10644,5:9506,6:5458,7:33388,8:7834,9:20580,1
+0:41,11:1436
+ 28251 multiletter control sequences out of 65536+600000
  78 fonts using 8847703 bytes
- 39i,12n,68p,373b,1485s stack positions out of 5000i,500n,10000p,200000b,100000s
+ 39i,12n,68p,373b,1486s stack positions out of 5000i,500n,10000p,200000b,100000s
 </usr/share/texmf-dist/fonts/opentype/public/lm/lmmono8-regular.otf></usr/share/
 texmf-dist/fonts/opentype/adobe/sourcecodepro/SourceCodePro-Bold.otf></usr/share
 /texmf-dist/fonts/opentype/adobe/sourcecodepro/SourceCodePro-Regular.otf></usr/s
@@ -1277,10 +1246,10 @@ sfonts/cm/cmsy5.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.
 pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/
 texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texmf-dist
 /fonts/type1/public/amsfonts/symbols/msbm7.pfb>
-Output written on tcr-main.pdf (25 pages, 468474 bytes).
+Output written on tcr-main.pdf (25 pages, 472703 bytes).
 
-PDF statistics: 3030 PDF objects out of 3580 (max. 8388607)
- 2936 compressed objects within 30 object streams
- 2328 named destinations out of 2487 (max. 131072)
- 697 words of extra memory for PDF output out of 10000 (max. 10000000)
+PDF statistics: 3071 PDF objects out of 3580 (max. 8388607)
+ 2977 compressed objects within 30 object streams
+ 2360 named destinations out of 2487 (max. 131072)
+ 713 words of extra memory for PDF output out of 10000 (max. 10000000)
 

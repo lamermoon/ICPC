@@ -1,4 +1,5 @@
-/* calculates geometric series with parameters a, n modulo mod
+/* Geometric sum modulo 
+ * calculates geometric series with parameters a, n modulo mod
  */
 //START
 long long powmod(long long base, long long exp, long long mod) {

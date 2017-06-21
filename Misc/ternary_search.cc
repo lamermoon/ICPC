@@ -8,7 +8,7 @@ long long msqe(long long i, long long j, long long p) {
   return sum;
 }
 
-\\START
+//START
 int main() {
   int d, k;
   cin >> d >> k;
@@ -42,4 +42,4 @@ int main() {
   cout << T[d][k-1] << endl;
 }
 
-\\END
+//END
