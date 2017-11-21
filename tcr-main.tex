@@ -1,6 +1,6 @@
 \documentclass[10pt,a4paper,ngerman,oneside,]{article}
-\newcommand\teamname{Romath}
-\newcommand\teammembers{Roland Haase\\ Thore Tiemann\\ Marcel Wienöbst}
+\newcommand\teamname{Lühack}
+\newcommand\teammembers{Gunnar Bergmann\\ Thore Tiemann\\ Marcel Wienöbst}
 \newcommand\university{Universität zu Lübeck}
 
 \usepackage[log-declarations=false]{xparse}
@@ -160,29 +160,29 @@
 \tableofcontents
 
 \begin{multicols}{2}
-% \vfill
-\vspace{1em}{\centering
-\hfill\begin{tabular}{rl}
-	\hline $n$ & Runtime $100\cdot 10^{6}$ in $3$s \\\hline
-	$[10,11]$ & $\mathcal{O}(n!)$ \\
-	$<22$ & $\mathcal{O}(n2^n)$ \\
-	$\leq 100$ & $\mathcal{O}(n^4)$ \\
-	$\leq 400$ & $\mathcal{O}(n^3)$ \\
-	$\leq 2.000$ & $\mathcal{O}(n^2\log n)$ \\
-	$\leq 10.000$ & $\mathcal{O}(n^2)$ \\
-	$\leq 1.000.000$ & $\mathcal{O}(n\log n)$ \\
-	$\leq 100.000.000$ & $\mathcal{O}(n)$ \\\hline
-\end{tabular}\hfill}
+% % \vfill
+% \vspace{1em}{\centering
+% \hfill\begin{tabular}{rl}
+% 	\hline $n$ & Runtime $100\cdot 10^{6}$ in $3$s \\\hline
+% 	$[10,11]$ & $\mathcal{O}(n!)$ \\
+% 	$<22$ & $\mathcal{O}(n2^n)$ \\
+% 	$\leq 100$ & $\mathcal{O}(n^4)$ \\
+% 	$\leq 400$ & $\mathcal{O}(n^3)$ \\
+% 	$\leq 2.000$ & $\mathcal{O}(n^2\log n)$ \\
+% 	$\leq 10.000$ & $\mathcal{O}(n^2)$ \\
+% 	$\leq 1.000.000$ & $\mathcal{O}(n\log n)$ \\
+% 	$\leq 100.000.000$ & $\mathcal{O}(n)$ \\\hline
+% \end{tabular}\hfill}
 
-\vspace{1em}
-\noindent
-\texttt{byte} (8 Bit, signed): -128 \dots 127\\
-\texttt{short} (16 Bit, signed): -32.768 \dots 23.767\\
-\texttt{integer} (32 Bit, signed): -2.147.483.648 \dots 2.147.483.647\\
-\texttt{long} (64 Bit, signed): $-2^{63}$\dots $2^{63}-1$\\
+% \vspace{1em}
+% \noindent
+% \texttt{byte} (8 Bit, signed): -128 \dots 127\\
+% \texttt{short} (16 Bit, signed): -32.768 \dots 23.767\\
+% \texttt{integer} (32 Bit, signed): -2.147.483.648 \dots 2.147.483.647\\
+% \texttt{long} (64 Bit, signed): $-2^{63}$\dots $2^{63}-1$\\
 
-\newcommand{\hash}[1]{{\bfseries MD5:} ~\texttt{#1}}
-\vspace{1.2em}\noindent {\textbf{MD5:}} \texttt{\small cat <string>| tr -d [:space:] | md5sum}\\
+% \newcommand{\hash}[1]{{\bfseries MD5:} ~\texttt{#1}}
+% \vspace{1.2em}\noindent {\textbf{MD5:}} \texttt{\small cat <string>| tr -d [:space:] | md5sum}\\
 
 % \newpage
 % \begin{multicols}{2}
@@ -360,21 +360,6 @@ $
   s & String (use S for all uppercase)
 \end{tabular}
 
-\subsection{Modulo: Avoiding negative Integers}
-\begin{lstlisting}
-int mod = (((nums[j] % D) + D) % D);
-\end{lstlisting}
-
-\subsection{Speed up IO}
-Use
-\begin{lstlisting}
-BufferedReader br = new BufferedReader(new
-InputStreamReader(System.in));
-\end{lstlisting}
-Use
-\begin{lstlisting}
-Double.parseDouble(Scanner.next());
-\end{lstlisting}
 \end{multicols}
 
 %\includepdf[pages=-,clip,trim=5mm 17mm 0mm 17mm,scale=0.95,pagecommand={\pagestyle{plain}}]{tcs-cheat-sheet.pdf}

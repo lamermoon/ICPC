@@ -1,7 +1,6 @@
 /* LongestIncreasingSubsequence
  ** n \log n
- * Computes the longest increasing subsequence using binary search.\\
- * \emph{Input:} array $arr$ containing a sequence and empty array $p$ of length $arr.length$ for storing indices of the LIS (might be usefull to have) \\
+ * \emph{Input:} array $arr$ containing a sequence and empty array $p$ of length $arr.length$ for storing indices of the LIS \\
  * \emph{Output:} array $s$ containing the longest increasing subsequence
  */
 
