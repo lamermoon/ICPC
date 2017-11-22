@@ -14,7 +14,7 @@
 \contentsline {subsection}{\numberline {3.4}Bipartite Graph Check}{6}{subsection.3.4}
 \contentsline {subsection}{\numberline {3.5}Maximum Bipartite Matching}{6}{subsection.3.5}
 \contentsline {subsection}{\numberline {3.6}Bitonic TSP}{6}{subsection.3.6}
-\contentsline {subsection}{\numberline {3.7}Single-source shortest paths in dag}{7}{subsection.3.7}
+\contentsline {subsection}{\numberline {3.7}Single-source shortest paths in dag}{6}{subsection.3.7}
 \contentsline {subsection}{\numberline {3.8}Dijkstra}{7}{subsection.3.8}
 \contentsline {subsection}{\numberline {3.9}EdmondsKarp}{7}{subsection.3.9}
 \contentsline {subsection}{\numberline {3.10}Reference for Edge classes}{7}{subsection.3.10}
@@ -24,7 +24,7 @@
 \contentsline {subsection}{\numberline {3.14}Johnsons Algorithm}{9}{subsection.3.14}
 \contentsline {subsection}{\numberline {3.15}Kruskal}{9}{subsection.3.15}
 \contentsline {subsection}{\numberline {3.16}Min Cut}{9}{subsection.3.16}
-\contentsline {subsection}{\numberline {3.17}Prim}{10}{subsection.3.17}
+\contentsline {subsection}{\numberline {3.17}Prim}{9}{subsection.3.17}
 \contentsline {subsection}{\numberline {3.18}Recursive Depth First Search}{10}{subsection.3.18}
 \contentsline {subsection}{\numberline {3.19}Strongly Connected Components}{10}{subsection.3.19}
 \contentsline {subsection}{\numberline {3.20}Suurballe}{11}{subsection.3.20}
@@ -38,13 +38,13 @@
 \contentsline {subsection}{\numberline {4.1}Binomial Coefficient}{13}{subsection.4.1}
 \contentsline {subsection}{\numberline {4.2}Binomial Matrix }{13}{subsection.4.2}
 \contentsline {subsection}{\numberline {4.3}Divisability}{13}{subsection.4.3}
-\contentsline {subsection}{\numberline {4.4}Graham Scan}{14}{subsection.4.4}
+\contentsline {subsection}{\numberline {4.4}Graham Scan}{13}{subsection.4.4}
 \contentsline {subsection}{\numberline {4.5}Iterative EEA }{14}{subsection.4.5}
 \contentsline {subsection}{\numberline {4.6}Polynomial Interpolation}{15}{subsection.4.6}
-\contentsline {subsection}{\numberline {4.7}Root of permutation}{16}{subsection.4.7}
+\contentsline {subsection}{\numberline {4.7}Root of permutation}{15}{subsection.4.7}
 \contentsline {subsection}{\numberline {4.8}Sieve of Eratosthenes}{16}{subsection.4.8}
 \contentsline {subsection}{\numberline {4.9}Greatest Common Divisor}{16}{subsection.4.9}
-\contentsline {subsection}{\numberline {4.10}Least Common Multiple}{17}{subsection.4.10}
+\contentsline {subsection}{\numberline {4.10}Least Common Multiple}{16}{subsection.4.10}
 \contentsline {subsection}{\numberline {4.11}GEV}{17}{subsection.4.11}
 \contentsline {subsection}{\numberline {4.12}Fourier transform}{18}{subsection.4.12}
 \contentsline {subsection}{\numberline {4.13}geometry lib}{19}{subsection.4.13}
@@ -52,8 +52,8 @@
 \contentsline {subsection}{\numberline {4.15}Matrix exponentiation}{20}{subsection.4.15}
 \contentsline {subsection}{\numberline {4.16}phi function calculator}{20}{subsection.4.16}
 \contentsline {subsection}{\numberline {4.17}prints farey seq}{20}{subsection.4.17}
-\contentsline {section}{\numberline {5}Misc}{21}{section.5}
-\contentsline {subsection}{\numberline {5.1}Binary Search}{21}{subsection.5.1}
+\contentsline {section}{\numberline {5}Misc}{20}{section.5}
+\contentsline {subsection}{\numberline {5.1}Binary Search}{20}{subsection.5.1}
 \contentsline {subsection}{\numberline {5.2}Next number with n bits set}{21}{subsection.5.2}
 \contentsline {subsection}{\numberline {5.3}Next Permutation}{21}{subsection.5.3}
 \contentsline {subsection}{\numberline {5.4}Greedy-Scheduling}{21}{subsection.5.4}

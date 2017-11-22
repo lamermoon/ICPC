@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.0.4 (TeX Live 2017/Arch Linux)  (format=lualatex 2017.11.20)  21 NOV 2017 18:04
+This is LuaTeX, Version 1.0.4 (TeX Live 2017/Arch Linux)  (format=lualatex 2017.11.20)  22 NOV 2017 17:28
  system commands enabled.
 **tcr-main.tex
 (./tcr-main.tex
@@ -34,7 +34,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.100 seconds
+luaotfload | main : initialization completed in 0.183 seconds
 Babel <3.15> and hyphenation patterns for 1 language(s) loaded.
 (/usr/share/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
@@ -1130,7 +1130,7 @@ Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
 \c@lstlisting=\count312
-<img/logo_uzl.pdf, id=353, pagebox=cropbox, 284.52798pt x 113.8112pt>
+<img/logo_uzl.pdf, id=345, pagebox=cropbox, 284.52798pt x 113.8112pt>
 File: img/logo_uzl.pdf Graphic file (type pdf)
 <use img/logo_uzl.pdf>
 Package luatex.def Info: img/logo_uzl.pdf  used on input line 146. on input line
@@ -1176,26 +1176,25 @@ File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
 var/luatex-cache/generic/fonts/otl/lmmono8-regular.luc))
 (./Graph/tmp_2SAT.java) (./Graph/tmp_BFS.java) (./Graph/tmp_BellmanFord.java)
 [5] (./Graph/tmp_BipartiteGraphCheck.java) (./Graph/tmp_BipartitesMatching.java
-) (./Graph/tmp_BitonicTSP.java) [6] (./Graph/tmp_DAGSSP.java)
+) (./Graph/tmp_BitonicTSP.java) (./Graph/tmp_DAGSSP.java [6])
 (./Graph/tmp_Dijkstra.java) (./Graph/tmp_EdKarp.java) (./Graph/tmp_Edge.java
 [7]) (./Graph/tmp_FloydWarshall.java) (./Graph/tmp_HeldKarpTSP.java)
-(./Graph/tmp_ItDFS.java [8]) (./Graph/tmp_Johnson.java)
-(./Graph/tmp_Kruskal.java) (./Graph/tmp_MinCut.java) [9] (./Graph/tmp_Prim.java
-) (./Graph/tmp_RecDFS.java) (./Graph/tmp_StronglyConnectedComponents.java
-[10]) (./Graph/tmp_Suurballe.java) (./Graph/tmp_TSKahn.java)
+(./Graph/tmp_ItDFS.java) [8] (./Graph/tmp_Johnson.java)
+(./Graph/tmp_Kruskal.java) (./Graph/tmp_MinCut.java) (./Graph/tmp_Prim.java
+[9]) (./Graph/tmp_RecDFS.java) (./Graph/tmp_StronglyConnectedComponents.java)
+[10] (./Graph/tmp_Suurballe.java) (./Graph/tmp_TSKahn.java)
 (./Graph/tmp_TopologicalSort.java [11]) (./Graph/tmp_Tuple.java)
-(./Graph/tmp_Vertex.java) (./Graph/tmp_dijkstra.cc [12])
-(./Graph/tmp_maxflow.cc) (./Math/tmp_BinomialCoefficient.java)
-(./Math/tmp_BinomialMatrix.java) (./Math/tmp_Divisability.java) [13]
-(./Math/tmp_GrahamScan.java) (./Math/tmp_IterativeEEA.java [14])
-(./Math/tmp_PolynomialInterpolation.java) [15] (./Math/tmp_RootofPerm.java)
-(./Math/tmp_SieveOfEratosthenes.java) (./Math/tmp_gcd.java) [16]
-(./Math/tmp_lcm.java) (./Math/tmp_GaussAlgorithm.cc [17])
-(./Math/tmp_fourier_transform.cc [18]) (./Math/tmp_geometry.cc [19])
+(./Graph/tmp_Vertex.java) (./Graph/tmp_dijkstra.cc) (./Graph/tmp_maxflow.cc
+[12]) (./Math/tmp_BinomialCoefficient.java) (./Math/tmp_BinomialMatrix.java)
+(./Math/tmp_Divisability.java) (./Math/tmp_GrahamScan.java [13])
+(./Math/tmp_IterativeEEA.java [14]) (./Math/tmp_PolynomialInterpolation.java)
+(./Math/tmp_RootofPerm.java [15]) (./Math/tmp_SieveOfEratosthenes.java)
+(./Math/tmp_gcd.java) (./Math/tmp_lcm.java [16]) (./Math/tmp_GaussAlgorithm.cc
+[17]) (./Math/tmp_fourier_transform.cc [18]) (./Math/tmp_geometry.cc [19])
 (./Math/tmp_geomod.cc) (./Math/tmp_matrix_exponentiation.cc) (./Math/tmp_phi.cc
 ) (/usr/share/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
-) (./Math/tmp_farey.py) [20] (./Misc/tmp_BinarySearch.java) (./Misc/tmp_NextNum
+) (./Math/tmp_farey.py) (./Misc/tmp_BinarySearch.java [20]) (./Misc/tmp_NextNum
 ber.java)
 (./Misc/tmp_NextPermutation.java) (./Misc/tmp_greedy_scheduling.java [21])
 (./Misc/tmp_comp.cc) (./Misc/tmp_hash.cc) (./Misc/tmp_mos_alg.cc [22])
@@ -1250,39 +1249,23 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 367.
  (./tcr-main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 367.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 367.
-
-
-Package rerunfilecheck Warning: File `tcr-main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `tcr-main.out':
-(rerunfilecheck)             Before: B383D9122273713774515C826C619FDA;5909
-(rerunfilecheck)             After:  B45960158AD9C3D303621D2A2DFA5637;5749.
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
+Package rerunfilecheck Info: File `tcr-main.out' has not changed.
+(rerunfilecheck)             Checksum: B45960158AD9C3D303621D2A2DFA5637;5749.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 367.
 )
 
 Here is how much of LuaTeX's memory you used:
- 29127 strings out of 494483
- 745240,662416 words of node,token memory allocated
+ 29122 strings out of 494483
+ 745261,662416 words of node,token memory allocated
  6327 words of node memory still in use:
    78 hlist, 8 vlist, 81 rule, 2 local_par, 20 math, 446 glue, 8 kern, 2 penalty
 , 96 glyph, 152 attribute, 63 glue_spec, 152 attribute_list, 2 write, 4 pdf_colo
 rstack nodes
-   avail lists: 1:2,2:15397,3:881,4:11675,5:10825,6:6826,7:36057,8:8917,9:23386,
-10:41,11:1660
- 29270 multiletter control sequences out of 65536+600000
+   avail lists: 1:1,2:16265,3:832,4:12383,5:10848,6:6391,7:35684,8:8946,9:23501,
+10:41,11:1675
+ 29268 multiletter control sequences out of 65536+600000
  85 fonts using 13291167 bytes
- 39i,12n,67p,373b,1540s stack positions out of 5000i,500n,10000p,200000b,100000s
-
-warning  (pdf backend): unreferenced destination with name 'page.26'
-
-warning  (pdf backend): unreferenced destination with name 'subsection.8.3'
-
-warning  (pdf backend): unreferenced destination with name 'subsection.8.2'
+ 40i,12n,67p,373b,1540s stack positions out of 5000i,500n,10000p,200000b,100000s
 </usr/share/texmf-dist/fonts/opentype/public/lm/lmmono8-regular.otf></usr/share/
 texmf-dist/fonts/opentype/adobe/sourcecodepro/SourceCodePro-Bold.otf></usr/share
 /texmf-dist/fonts/opentype/adobe/sourcecodepro/SourceCodePro-Regular.otf></usr/s
@@ -1303,10 +1286,10 @@ sfonts/cm/cmsy5.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.
 pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/
 texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texmf-dist
 /fonts/type1/public/amsfonts/symbols/msbm7.pfb>
-Output written on tcr-main.pdf (25 pages, 476262 bytes).
+Output written on tcr-main.pdf (25 pages, 476670 bytes).
 
-PDF statistics: 3118 PDF objects out of 3580 (max. 8388607)
- 3023 compressed objects within 31 object streams
- 2408 named destinations out of 2487 (max. 131072)
- 706 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 3107 PDF objects out of 3580 (max. 8388607)
+ 3012 compressed objects within 31 object streams
+ 2405 named destinations out of 2487 (max. 131072)
+ 690 words of extra memory for PDF output out of 10000 (max. 100000000)
 
